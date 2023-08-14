@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-<!--
+
     <types>
         <members>emptyClaims</members>
         <members>priceAlerts</members>
@@ -119,7 +119,7 @@
         <members>Canal_Cliente_UX_Gas</members>
         <name>PermissionSet</name>
     </types>
--->
+
     <types>
         <members>ccnavmenus__Menu__c</members>
         <name>CustomObject</name>
