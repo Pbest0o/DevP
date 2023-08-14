@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "f3ce2b19-c92c-4bbb-862c-6d470862ea82",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "902ed1b2-6343-43fa-82b9-b641bd19847a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Suprimentos_Evolucao_Cota_cotaEvolucao_Component",
+  "id" : "cf701492-5e28-4182-8320-0cd036f9a02f",
+  "type" : "experienceVariation"
+}

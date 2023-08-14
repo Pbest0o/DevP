@@ -1,0 +1,105 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "d8c15cb2-def1-4d16-8d80-b8f0f01ad1df",
+  "label" : "Saldo Cota",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "13d7805a-a8e1-4f75-9e1b-0ebb675e8581",
+          "columns" : [ {
+            "UUID" : "12258386-eb2c-4e1f-91cd-c4870d4bf298",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "13d7805a-a8e1-4f75-9e1b-0ebb675e8581",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Suprimentos &gt; Saldo Cota</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8dc9f9a3-4298-4904-85ca-7bbff80da545",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Saldo Cota</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "59c5efd7-c511-4545-ab18-bcf30ea89c7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Saldo Cota",
+            "renderClassificacao" : true,
+            "renderListaProdutos" : true,
+            "renderListalocais" : true,
+            "renderLocal" : false,
+            "renderModalidade" : false,
+            "renderPeriodo" : true,
+            "renderProduto" : false,
+            "renderVisualizacao" : true
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "b36e6075-6139-4e90-bc72-39a1223b335d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a4277016-a3ed-47dc-9c86-05f01498aef4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "12258386-eb2c-4e1f-91cd-c4870d4bf298",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b364fdc2-ca30-4e78-89f3-cad65127a9bd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Saldo de Cota"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6d07faa6-ea5d-4842-9520-c7cac740ad1f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "04099a53-80f6-4800-9dcd-b02ac132477b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-saldo-cota"
+}

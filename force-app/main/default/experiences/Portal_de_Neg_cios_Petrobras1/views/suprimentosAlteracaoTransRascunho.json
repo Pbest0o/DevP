@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9576867c-7a7d-4739-90d8-fe09b6603ac0",
+  "label" : "Suprimentos Alteracao Trans Rascunho",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Alteração de Pedido &gt; Transformação do Rascunho</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ab67be0a-f269-475f-895c-b20bdc74bf26",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd14b1fa-6d9e-4fa2-a6e9-1e8fe5b09346",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Transformação de Rascunho em Alterações - PETROBRAS</strong></h1><h1><br></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f97ccfaf-bee5-4c7e-9c0c-029a4d9c43e0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a67fc745-fbad-40bb-9833-e352e9daf7ef",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosAlteracaoTransfRascunho",
+      "id" : "48e8057e-b442-44de-a16c-b71af6660450",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "527c70d0-3aaa-42bb-99ed-3c08a7f68ad3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Alteracao Trans Rascunho"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "673cd725-fc90-4cfb-9323-6ab2257385f6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "89fc410a-9a9c-4847-b51a-013c768dce0d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-alteracao-trans-rascunho"
+}

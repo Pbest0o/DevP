@@ -1,0 +1,37 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "387e1737-e431-442e-9608-5bb3b30325f7",
+  "label" : "Contato Comercial Detail",
+  "regions" : [ {
+    "id" : "5943ca7e-d1e0-4db8-800e-cd6ffab5dfa0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "3ae3212b-d859-4d20-99b4-4297968d7a81",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8af64a63-4bcb-49d5-a553-ba1ba6c6f329",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8f2d8721-70a8-442c-b082-cc82b9488b1c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cc1b30f1-b5e1-44e3-a5ee-9879340380c8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a8i"
+}

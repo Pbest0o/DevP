@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7d19a47b-4826-4264-a31c-1f703be8e063",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "e329021d-867b-4c28-86d3-fcb56c7fa2f5",
+  "label" : "Suprimentos Consulta Modificacao",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-consulta-modificacao",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-consulta-modificacao"
+}

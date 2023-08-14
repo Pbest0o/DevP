@@ -1,0 +1,67 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "51a6a280-52aa-4754-addc-5a1c5bb96d5a",
+  "label" : "Agendamento Detalhe",
+  "regions" : [ {
+    "id" : "9103f2b5-7492-42ce-ae21-ba140fd69148",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "48a74aa3-78a5-4ba6-87c0-7aee105ac29e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "1cb983cc-b297-40db-95fc-4920d666ae49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "objectName" : "Agendamento Rodoviario",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:customRelatedLists",
+      "id" : "2466c767-5204-42d0-90d0-194dae063e26",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9a6eaf78-8afc-4ddf-9b8b-6df3c09fc409",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d484d6f1-20aa-4a3b-9baf-7519aeae524d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1f7cfd9d-cc9e-468d-8ef5-3b011e4b487b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d504e477-f20b-43e6-a4af-5bbb356340ba",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x0A"
+}

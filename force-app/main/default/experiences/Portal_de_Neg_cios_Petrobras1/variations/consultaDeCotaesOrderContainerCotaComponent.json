@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "40da8445-34a0-41a1-97f2-cc6ac6e056a3",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "234f749d-18f3-43ed-933d-bf4d5369e8ef",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_de_Cotaes_orderContainerCota_Component",
+  "id" : "d4e2ac09-b322-4977-8be1-e0eeb4fa3dd4",
+  "type" : "experienceVariation"
+}

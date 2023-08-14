@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0966280e-63d0-4686-b7cc-88fe3ef7c9fa",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "328c4ca3-5201-4bb9-80a5-48ce8419adf8",
+  "label" : "Usuários Master",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-usurios-master",
+  "type" : "route",
+  "urlPrefix" : "usurios-master"
+}

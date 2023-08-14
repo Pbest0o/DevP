@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7d19a47b-4826-4264-a31c-1f703be8e063",
+  "label" : "Suprimentos Consulta Modificacao",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Pedido &gt; Consulta da Modificação</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "71034d46-b37e-4090-be96-e87eec05c26a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "280a66bf-a67f-4b60-811e-ec368aa3904f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Consulta da Modificação - PETROBRAS</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "32d7122a-e79f-4724-9a14-c449ab1e95dc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee90de41-99e0-4baa-9628-d24e00c1af36",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:consultaModiPedido",
+      "id" : "528236ba-914a-4eb0-a56e-58026ba2abd5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a1491318-622f-49de-9409-e9fe51545a1d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Consulta Modificacao"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4b5af9a5-5acf-4056-b438-75e72bccd31a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1b39fbdf-5c8f-43d1-8564-61235faadc02",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-consulta-modificacao"
+}

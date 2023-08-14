@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "51a6a280-52aa-4754-addc-5a1c5bb96d5a",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "62f9748e-158b-4bf5-9180-1396cdbd0ac1",
+  "label" : "Agendamento Detalhe",
+  "objectApiName" : "CC_AGENDAMENTO__x",
+  "routeType" : "detail-x0A",
+  "type" : "route",
+  "urlPrefix" : "cc-agendamento"
+}

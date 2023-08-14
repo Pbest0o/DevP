@@ -1,0 +1,107 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "daa156fa-27e6-41a2-8061-d1bfc62b1e05",
+  "label" : "Extrato de Cota",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "df90a8b6-5ed6-47bf-9e38-3ef3e9e3425c",
+          "columns" : [ {
+            "UUID" : "c3502cbf-b374-4197-81c3-c2410be4741d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "df90a8b6-5ed6-47bf-9e38-3ef3e9e3425c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Suprimentos &gt; Extrato de Cota</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c997b664-66b9-4def-93f8-e0c40388c0c8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Extrato de Cota</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "93c78fd1-2231-487f-975d-bf83deab88d2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Extrato de Cota",
+            "renderClassificacao" : false,
+            "renderListaProdutos" : false,
+            "renderListalocais" : false,
+            "renderLocal" : false,
+            "renderLocalLimi" : true,
+            "renderModalidade" : false,
+            "renderPeriodo" : true,
+            "renderProduto" : false,
+            "renderProdutoLimi" : true,
+            "renderVisualizacao" : false
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "353e9af4-25bc-4cee-8bca-dce0cc068264",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0f6040f8-6fd9-4d31-94c1-c2f750c99f7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c3502cbf-b374-4197-81c3-c2410be4741d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c4c80bfe-d153-4f7f-aebb-2a774add8814",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Extrato de Cota"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "068a2dd1-0680-4800-9d97-3c4d675823f6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d60aee0-3fdf-4fc5-b1cc-e8b536a9563c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-extrato-de-cota"
+}

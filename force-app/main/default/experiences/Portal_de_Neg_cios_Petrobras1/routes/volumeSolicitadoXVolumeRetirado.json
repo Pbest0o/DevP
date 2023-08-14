@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d2f448f2-8718-4bc4-953c-3a84762e6a83",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "c204c9c6-6705-40ca-8cab-2c280762b66a",
+  "label" : "Volume Solicitado x Volume Retirado",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volume-solicitado-x-volume-retirado",
+  "type" : "route",
+  "urlPrefix" : "volume-solicitado-x-volume-retirado"
+}

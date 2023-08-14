@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7d1a28fc-acf1-440b-b5e2-9c7e6aa1442d",
+  "label" : "Record List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/financeiro\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Operação</a> &gt; <u>Acompanhamento de Bombeio</u></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d15f382a-be75-4138-80ea-e0d2109666be",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Acompanhamento de Bombeio</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "bddeefb5-a2d5-44d5-9301-3ccb90b2689a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c829175a-2a69-475e-a81a-9220386ecbd7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "Acompanhamento",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "CC_ACOMPANHAMENTO_BOMBEIO__x",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "ead4c2a1-8f92-4479-afcc-6969e6d8468a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6c08693b-b7ff-4cfc-ae06-8b34e72d467e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0b3e40c8-3483-4e1d-89ff-196f1f45402f",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list"
+}

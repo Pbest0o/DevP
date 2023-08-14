@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a791e1b4-7b58-4f1a-9db7-8546eddb20c9",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "956d3882-f158-4ec2-9527-eeb0d22dba8e",
+  "label" : "Solicitação de Bombeio",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-solicitao-de-bombeio",
+  "type" : "route",
+  "urlPrefix" : "solicitao-de-bombeio"
+}

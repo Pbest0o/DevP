@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b83116b3-c0a5-463d-9c3f-573a7e56a69c",
+  "label" : "Carreta Lista",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Operação</span> &gt; Vencimento Carretas</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "dafc27ef-0ef1-4006-b4a9-898b8145459d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Vencimento Carretas</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "065f09a0-31eb-4a23-9a45-87a6f48384b7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c7538c5-4154-4bbd-ba5a-592f727847a6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "40fed88e-2e00-49a9-9d21-736e95aff8f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "80ebca11-8ecb-4820-aa85-d64ad2ac793f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "79820b56-6d4f-49ed-a190-bef912b0388f",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x0E"
+}

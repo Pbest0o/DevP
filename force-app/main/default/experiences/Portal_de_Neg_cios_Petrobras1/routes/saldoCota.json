@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d8c15cb2-def1-4d16-8d80-b8f0f01ad1df",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "00919dfb-5e27-4b93-92ac-6b9b2f66dbb4",
+  "label" : "Saldo Cota",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-saldo-cota",
+  "type" : "route",
+  "urlPrefix" : "saldo-cota"
+}

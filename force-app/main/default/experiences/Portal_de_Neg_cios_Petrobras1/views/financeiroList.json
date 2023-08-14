@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "3b994f8e-86a2-4267-a9b7-a6e0e52975c6",
+  "label" : "Financeiro List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início</a><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">&nbsp;</span>&gt; <span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Financeiro&nbsp;</span>&gt; Movimentaçòes Financeiras</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f724186d-9443-4829-b6e1-dc60a8161d49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(0, 138, 0); font-size: 28px;\">Movimentações Financeiras</strong></h1><h1><strong style=\"color: rgb(255, 194, 102); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "65ec8f0a-13b2-4e1c-964e-72edccb305d2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e15c88d7-79d8-493f-9029-3079aea9bbcb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "7b2297d0-03d8-4b88-8220-03a8d532ca89",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7bf90b96-74af-4ffa-bf92-0be8f7156f4f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f1fbbff0-1e47-45c4-88af-aea364fd5497",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x01"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d15f0c20-c0ec-4e91-a174-394e099f01fa",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "189be181-a12a-4c78-8be9-3248e571be1a",
+  "label" : "Download Notas Fiscais",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-nota-fiscal",
+  "type" : "route",
+  "urlPrefix" : "nota-fiscal"
+}

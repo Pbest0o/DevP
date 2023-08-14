@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "453c74be-ae6e-4c12-82ee-51c3805aa6c6",
+  "label" : "Suprimentos Download Planilha",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Pedido &gt; Por Planilha</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2c31bccb-c659-49d1-9a27-7225cde724ff",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9b9f7f6b-5362-4c93-99a0-fa13f8fe3d24",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Pedidos - Planilha - PETROBRAS</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"background-color: rgb(237, 245, 236); color: rgb(74, 128, 74);\">O modelo atualizado da planilha pode ser obtido através do botão de \"download\" abaixo: </span></p><p><span style=\"background-color: rgb(237, 245, 236); color: rgb(74, 128, 74);\">﻿Após preencher a planilha e gravá-la em seu computador, clique no botão abaixo:</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "cb0bd890-a12e-48c5-b694-a32d4b0de425",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "95a124cc-2147-48ab-9ffe-8b210ec4ada4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosDownloadUpload",
+      "id" : "ae0412c3-ac9a-4794-81bb-5e49dd82e00d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "388ca0eb-6916-4eb1-ba9f-ed77f1f9c173",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Download Planilha"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "85241671-4d7b-4efb-b56f-c6c704b0bf43",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "31b8dd9a-da51-45df-92bb-40f439469fa8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-download-planilha"
+}

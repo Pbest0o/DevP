@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "afdfea4d-0b48-4aad-ba0a-c19da48a9cca",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a6ee35b6-f816-45a7-b10e-2c6731785237",
+  "label" : "Centro Detalhe",
+  "objectApiName" : "CC_MUNICIPIO__x",
+  "routeType" : "detail-x03",
+  "type" : "route",
+  "urlPrefix" : "cc-municipio"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "9610d041-1047-4534-900e-20f34cb04a2b",
+    "propertyOverrides" : {
+      "activeViewId" : "21828282-2681-4194-8e3a-4a60072f49b2"
+    },
+    "targetId" : "a392ca99-7266-4e62-9579-996f3522dbc1",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Usurios_Secundrios_Usurios_Secundrios_Page",
+  "id" : "bd973c66-7159-4d43-b188-5559b4446722",
+  "type" : "experienceVariation"
+}

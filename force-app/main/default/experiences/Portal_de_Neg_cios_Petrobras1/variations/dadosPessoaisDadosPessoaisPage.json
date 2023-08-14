@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "1fbf0dae-2b27-4e8e-975d-bed9fb2890a9",
+    "propertyOverrides" : {
+      "activeViewId" : "97c87311-d72d-4fe1-8570-99db3e5a15fa"
+    },
+    "targetId" : "0fd8524d-c781-4b63-9c05-43eb5a9cfc19",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Dados_Pessoais_Dados_Pessoais_Page",
+  "id" : "a0ab8908-1e7f-4b58-8940-446f4d5e22b5",
+  "type" : "experienceVariation"
+}

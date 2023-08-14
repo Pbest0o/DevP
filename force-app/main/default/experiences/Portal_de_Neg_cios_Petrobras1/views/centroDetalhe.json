@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "afdfea4d-0b48-4aad-ba0a-c19da48a9cca",
+  "label" : "Centro Detalhe",
+  "regions" : [ {
+    "id" : "dd21c1cf-ae78-4574-bbf2-ac6fc8b1d356",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "1cc19c8e-ad73-4a94-a21b-23d9f8e6fdc9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "none",
+        "tab3Type" : "related",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "b0a07f90-4270-4861-873a-e06b7d2fa4f9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5b52528-8630-4ce3-8e21-1c6d28760fd4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "48ed1641-a03f-4a11-a406-6a707f291f16",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "74ebdcca-f1ca-476e-9562-b29bfd5792c3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3862fc31-f9e2-4228-ae63-16c30e285857",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x03"
+}

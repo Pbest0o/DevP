@@ -1,0 +1,115 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c50934db-bdc0-4c8f-aa5a-a48ca4afefc1",
+  "label" : "Efetua Requisição de Consumo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "0b4a267b-3034-462b-82fe-4ca5d573e823",
+          "columns" : [ {
+            "UUID" : "b1156b44-ae42-4ec1-9b66-8f5d38fcb361",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0b4a267b-3034-462b-82fe-4ca5d573e823",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/efetua-requisicao-de-consumo\" rel=\"noopener noreferrer\" target=\"_self\">Operação</a> &gt; <u>Efetua Requisição de Consumo</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0da610fc-8089-4b52-8f24-abbc417b6f24",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Requisição de Consumo</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "af688a5d-3f45-419b-b490-306a264c697e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma requisição de consumo de acordo com o mês/ano da requisição, grupo de contrato </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">e tipo de requisição (Diária, Intra-Diária e Mensal), além da possibilidade de gerar planilha.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "680306ca-8eaa-4b35-8460-6cdb74d3a448",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : false,
+            "renderRegiao" : false,
+            "renderRequestDate" : true,
+            "renderRequestMonthAndYear" : false,
+            "renderRequestType" : true,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "ca430860-2fe3-4729-9a4f-8b6712a4f50c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "680f1d90-e5a8-49ba-9afc-e19485494256",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b1156b44-ae42-4ec1-9b66-8f5d38fcb361",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dfe15d93-2a0b-4b7a-9566-c2c4a12b5a85",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Efetua Requisição de Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "76350f70-c91c-4740-8d56-8934c036d8b8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fdf5a3aa-c3d3-4b39-96aa-7c748a734e1c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-efetua-requisio-de-consumo"
+}

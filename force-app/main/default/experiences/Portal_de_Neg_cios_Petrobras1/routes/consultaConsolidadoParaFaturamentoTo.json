@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "db8d16fe-bf9c-43d0-bd24-b3c32b006992",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2d0399de-4df1-4d8f-b682-fe2e9de76dcd",
+  "label" : "Consulta Consolidado para Faturamento To",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-consolidado-faturamento-total",
+  "type" : "route",
+  "urlPrefix" : "consulta-consolidado-faturamento-total"
+}

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "824097f9-4b27-42e1-a7f6-a3cebcad14c8",
+  "label" : "Agendamento Lista",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\"> </span><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Operação </span>&gt; Situação do Carregamento</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3a621797-0f8a-4f8a-8e8f-bc566968b957",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Situação de Carregamento</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5d00395a-1262-4849-8d46-b02887716063",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "09c101be-4df7-4ab5-b42e-998ee2e74e48",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "c0f1c5da-fd75-424c-839c-a3143b23b6a4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa7c77ab-4d34-4c80-9842-286c32a51aa0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ff8e92b3-41e9-4e0f-8351-f18f3861afbe",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x0A"
+}

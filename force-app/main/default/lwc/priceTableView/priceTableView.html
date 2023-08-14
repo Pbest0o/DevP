@@ -1,0 +1,94 @@
+<template>
+
+    <article class="slds-card">
+        <div class="slds-card__body slds-card__body_inner">
+        
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="arquivos">Produtos/Arquivos</label>
+                <div class="slds-form-element__control">
+                  <div class="slds-select_container">
+                    <select class="slds-select" id="arquivos" data-my-id="arquivos" onchange={selectValidity} required="">
+                      <option value="">Escolha uma opção...</option>
+
+                      <template if:true={materials}>
+                        <template for:each={materials} for:item='mat'>
+                            <option value='{mat}' key='{mat}'>{mat}</option>
+                        </template>
+                    </template>
+
+
+                    </select>
+
+                    
+                  </div>
+                </div>
+              </div>
+            
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="periodo">Vigência</label>
+                <div class="slds-form-element__control">
+                  <div class="slds-select_container">
+                    <select class="slds-select" id="periodo" data-my-id="periodo" onchange={changeValidity} required="" disabled={disabledPeriodo}>
+                      <option value="">Escolha uma opção...</option>
+
+
+                      <template if:true={validity}>
+                        <template for:each={validity} for:item='val'>
+                         <option value='{val}' key='{val}'>{val}</option>
+
+                     </template>
+                  </template>
+                    </select>
+                  </div>
+                </div>
+              </div>
+          <br></br>
+
+          <!-- Tabela para Multiplos Registros-->
+          <template lwc:if={multipleDownloadFiles}>
+            <p style='color: rgb(2, 133, 66)'>Encontramos mais de um arquivo para esta combinação. Selecione abaixo o arquivo desejado.</p>
+            <br></br>
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-labelledby="element-with-table-label other-element-with-table-label">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Opportunity Name">Nome</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Account Name">Link</div>
+                    </th>
+                    </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template if:true={downloadFileList}>
+                        <template for:each={downloadFileList} for:item='dfl'>
+                            <tr class="slds-hint-parent" key={dfl}>
+                                <th data-label="Nome do Arquivo" scope="row">
+                                    <div class="slds-truncate" title="Cloudhub">
+                                    {fileName}
+                                    </div>
+                                </th>
+                                <td data-label="Link">
+                                    <a href={dfl.Arquivo__c}>Download</a>
+                                </td>
+                                </tr>
+
+                     </template>
+                    
+                    </template>
+                </tbody>
+                </table>
+                <br></br>
+            </template>
+    <!-- Tabela para Multiplos Registros-->
+    
+              <button class="slds-button slds-button_outline-brand slds-button_stretch" onclick={actionDownloadFile} disabled={disabledConsultar}>Consultar</button>
+  
+      </div>
+          </article>
+
+
+          
+    
+</template>

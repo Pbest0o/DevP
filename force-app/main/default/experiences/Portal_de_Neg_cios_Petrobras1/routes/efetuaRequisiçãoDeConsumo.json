@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c50934db-bdc0-4c8f-aa5a-a48ca4afefc1",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "219a48a9-985d-47de-addb-5508865e8ee9",
+  "label" : "Efetua Requisição de Consumo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-efetua-requisio-de-consumo",
+  "type" : "route",
+  "urlPrefix" : "efetua-requisicao-de-consumo"
+}

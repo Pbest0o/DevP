@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0b7be80c-31ef-4e6f-9573-2864397b7890",
+  "label" : "Suprimentos Rascunho Pedido",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Pedido &gt; Rascunho</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "315d252c-57ca-49e1-939d-ea667a160974",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aa275d34-6d07-4adb-b7e5-5d7f96579864",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Prenchimento de Rascunho de Pedido - PETROBRAS</strong></h1><h1><br></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b08fd55c-4808-443b-9531-eaf97fe9ff14",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0078e82c-a3a0-4cde-972a-51cab98601fb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosRascunhoPedido",
+      "id" : "c5e94737-9ded-4781-beaf-a4572e8f8001",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5ef01123-0bca-4a51-9a49-4a8143080f87",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Rascunho Pedido"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc8aaa4e-0058-46f8-add2-404d798d0a7e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d5becd78-eb27-4a1c-a8c7-64c328c80151",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-rascunho-pedido"
+}

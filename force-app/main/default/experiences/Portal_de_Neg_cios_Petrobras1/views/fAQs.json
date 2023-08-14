@@ -1,0 +1,67 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "160c8dc9-8318-40af-888a-fed07d6c5eac",
+  "label" : "FAQs",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Fale Conosco</span> &gt; Perguntas Frequentes</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4bc2348d-9714-41ad-856a-b28ba8795e78",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Perguntas Frequentes</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px;\">As informações mais recorrentemente solicitadas ao nosso Serviço de Informação ao Cidadão estão disponíveis aqui. Recomendamos consultá-las antes de fazer uma nova solicitação de informação.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3987b424-ce53-4017-b098-8d8c0045e07d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3492f794-c371-481d-aee6-5a6329797d8b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"faqs\">\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck1\">\n        <label class=\"tab-label\" for=\"chck1\">FAQ 1</label>\n        <div class=\"tab-content\">\n          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis...\n        </div>\n      </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck2\">\n        <label class=\"tab-label\" for=\"chck2\">FAQ 2</label>\n        <div class=\"tab-content\">\n        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis...\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck3\">\n        <label class=\"tab-label\" for=\"chck3\">FAQ 3</label>\n        <div class=\"tab-content\">\n        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis...\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck4\">\n        <label class=\"tab-label\" for=\"chck4\">FAQ 4</label>\n        <div class=\"tab-content\">\n        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis...\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e898a518-c2ad-4e9b-bee4-a0bdc65a4d3c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d842fc13-a469-452d-be14-0753400ef5bc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7fbe80d7-46cf-4949-8895-516ed9780226",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "FAQs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "82aa6d76-8536-4aff-8879-640ea240ff66",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0e0570d7-77c4-44a2-902f-08db84f3e99c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-faqs"
+}

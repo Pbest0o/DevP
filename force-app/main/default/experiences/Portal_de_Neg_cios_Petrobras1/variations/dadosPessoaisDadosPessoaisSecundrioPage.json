@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2ec04f23-9e86-465f-94bd-6c4811f98c69",
+    "propertyOverrides" : {
+      "activeViewId" : "8a9f87bf-b10f-4d45-9075-53a25f0316f8"
+    },
+    "targetId" : "0fd8524d-c781-4b63-9c05-43eb5a9cfc19",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Dados_Pessoais_Dados_Pessoais_Secundrio_Page",
+  "id" : "ac00877c-d561-4ba6-b6f1-ed6ef32ddbc1",
+  "type" : "experienceVariation"
+}

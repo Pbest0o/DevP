@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9e2915fe-27e8-4268-bb23-884b2d0bab9d",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "4930703b-50e6-4473-8f01-4384e8725803",
+  "label" : "Consulta de Usuários Master",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-de-usurios-master",
+  "type" : "route",
+  "urlPrefix" : "consulta-de-usurios-master"
+}

@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c362aa1b-9faa-4589-ad57-655244e9bb68",
+  "label" : "Suprimentos Transformar Rascunho",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Pedido &gt; Transformar Rascunho em Pedido</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "da276e89-628c-44fe-92d6-ae1653061930",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b2a036b8-f3be-4f80-964c-da55a4827c79",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Transformação de Rascunho em Pedido - PETROBRAS</strong></h1><h1><br></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "13add349-cacb-43c2-89ad-efd4a34e9743",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "563dc61d-0e95-4ed3-982b-a21203e4c29b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosTransfRascunhoPedido",
+      "id" : "795d0b48-51c1-4992-8d3a-387545799d07",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "50a5c3a7-b3cf-4578-a205-2b1383b7551e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Transformar Rascunho"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "072a99f1-5687-4b74-ac88-83fd04bdb37d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "89350f20-f0d5-4b60-988b-f982d2f072a4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-transformar-rascunho"
+}

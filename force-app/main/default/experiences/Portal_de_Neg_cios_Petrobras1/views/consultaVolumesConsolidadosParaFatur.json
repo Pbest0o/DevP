@@ -1,0 +1,118 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7e7a3ad7-795d-4318-ae02-34e02810ba53",
+  "label" : "Consulta Volumes Consolidados para Fatur",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "887a8bc2-5adf-4ecb-bc6c-eb4891e832bb",
+          "columns" : [ {
+            "UUID" : "b4dec1b2-f052-42d5-bdf9-39eef06f10e8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 195
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "887a8bc2-5adf-4ecb-bc6c-eb4891e832bb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/portalcliente/s/volumes-consolidados-para-faturamento\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; Consulta Volumes Consolidados para Faturamento</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "13a7cf09-7bd9-439c-bbbc-b28a374f0fdf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Volumes Consolidados para Faturamento</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "94044076-a4aa-4e19-a001-baf5009184de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Realize uma consulta de volumes consolidados para faturamento de acordo com o mês/ano da requisição, </span></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">grupo de contrato, contrato, período de faturamento, tipo de visualização&nbsp;e volume total, ponto de entrega ou região.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "24134a34-e46e-40f1-b0a6-1fcfe433b54d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : true,
+            "renderContractGroup" : true,
+            "renderDataAmostragem" : false,
+            "renderPeriodoFaturamento" : true,
+            "renderPontoEntrega" : true,
+            "renderRegiao" : true,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderRequisicao" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : true
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "230cd659-9a5c-4278-83d2-96db5ad70a1f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6ec9b733-2daa-4460-a5d2-7d8a5917250a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b4dec1b2-f052-42d5-bdf9-39eef06f10e8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "22953904-7ece-434b-b824-d76ba5b43650",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta Volumes Consolidados para Faturamento"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "acb74a3b-4f00-4b39-a514-5f37f471ade3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "767bca64-0b9e-491d-9314-3300439c175b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-volumes-consolidados-para-faturamento"
+}

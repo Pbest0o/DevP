@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1b3f600f-cc19-4976-9ee2-0cd9a5b48312",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "d29bb3ee-3d26-40a8-a7fb-b1aa1c603a85",
+  "label" : "Suprimentos Destinacao Diferenciada",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-destinacao-diferenciada",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-destinacao-diferenciada"
+}

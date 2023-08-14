@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6837ae98-17b0-4d84-928e-55a1356cd289",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "f7de10b9-b062-4add-858f-045909b9a2df",
+  "label" : "Suprimentos Modificacao Pedido",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-modificacao-pedido",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-modificacao-pedido"
+}

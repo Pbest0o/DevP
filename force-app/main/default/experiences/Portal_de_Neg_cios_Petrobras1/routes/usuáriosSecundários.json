@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a392ca99-7266-4e62-9579-996f3522dbc1",
+  "label" : "Usuários Secundários",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-usuarios-secundarios",
+  "type" : "route",
+  "urlPrefix" : "usuarios-secundarios"
+}

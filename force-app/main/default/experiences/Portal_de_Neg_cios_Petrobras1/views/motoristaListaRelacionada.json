@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ecb63535-17c2-4303-a628-4800c1083edc",
+  "label" : "Motorista Lista relacionada",
+  "regions" : [ {
+    "id" : "5031cbeb-d0c0-4996-8d06-e2224dc99bff",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "6e0a8257-6e33-4139-bd20-27a8cdc78f02",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d66edbf-f85e-42dc-9727-5692c73233d7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2d115f41-c754-4dcf-af55-6720b52211aa",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x0S"
+}

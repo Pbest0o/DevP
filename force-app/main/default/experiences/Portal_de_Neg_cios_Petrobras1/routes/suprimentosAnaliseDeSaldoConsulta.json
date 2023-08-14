@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "75c75f43-3e49-438e-84e1-08609be87864",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "83267fef-b629-4183-8390-1e933b168e3f",
+  "label" : "Suprimentos Analise de Saldo Consulta",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-analise-de-saldo-consulta",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-analise-de-saldo-consulta"
+}

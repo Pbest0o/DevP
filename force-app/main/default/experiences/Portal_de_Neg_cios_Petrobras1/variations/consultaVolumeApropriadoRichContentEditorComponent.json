@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "9acf9192-0017-4c5b-a18a-c5ed73c29202",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "5b5c8bc5-7bec-44dd-b8b1-2aeba269cfc0",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Volume_Apropriado_Rich_Content_Editor_Component",
+  "id" : "b9ec91fc-a5d1-4d06-84dc-eebe170c81cc",
+  "type" : "experienceVariation"
+}

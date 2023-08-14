@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f930ab44-8bfc-4ab0-a971-74a0ccdb7a06",
+  "label" : "Suprimentos Quant Ref Guia Utilizacao",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos &gt; Quantidade de Referência &gt; Guia de Utilização</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c1609d98-f6cc-4361-91ce-ac2f51b83c83",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac3c8a7c-6145-4f67-9247-24bbc4616b69",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Guia de Uso Quantidade de Referência</strong></h1><h1><br></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "14b26621-0ecb-46b3-b386-9b1b1377c97d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9cb6add-bcee-4830-9dbd-1f533ef1a0b1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosQuantReferenciaGuiaUtilizacao",
+      "id" : "59d4e943-6e81-45c2-8c59-77cfe7c88f90",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e7cb5dc7-a1f9-4ac0-93b7-f26eb408488d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Quant Ref Guia Utilizacao"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "08a05567-ad27-4e54-b039-db04541724a4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "67cc15a2-880c-4af9-bdaa-8721d5a08703",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-quant-ref-guia-utilizacao"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "69b030e9-db86-44ad-9d72-f209833e57e3",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "01081988-ac79-4fff-b5cc-40ae2e22fcdb",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Suprimentos_Cota_Dia_Editor_de_Rich_Content_Component",
+  "id" : "ca2db43a-31a7-4986-9efd-bcf6931cd238",
+  "type" : "experienceVariation"
+}

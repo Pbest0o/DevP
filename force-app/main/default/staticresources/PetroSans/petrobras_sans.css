@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "PetroSans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_Bd.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_BdIt.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_It.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_Lt.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: italic;
+    font-weight: 200;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_LtIt.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_Rg.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_XBd.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "PetroSans";
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://[url_do_org]/s/sfsites/c/resource/PetroSans/PetrobrasSans_XBdIt.woff2) format("woff2");
+  }
+  
+  .psans {
+      font-family: PetroSans !important;
+      letter-spacing: -0.025em;
+  }
+  
+  .normal {
+      font-weight: 400 !important;
+  }
+  
+  .light {
+      font-weight: 200 !important;
+  }
+  
+  .bold {
+      font-weight: 600 !important;    
+  }
+  
+  .xbold {
+      font-weight: 800 !important;
+  }
+  
+  .italic {
+      font-style: italic;
+  }
+  

@@ -1,0 +1,116 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "db8d16fe-bf9c-43d0-bd24-b3c32b006992",
+  "label" : "Consulta Consolidado para Faturamento To",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "1572053a-e4a6-4ae5-b25b-40f01a9853ca",
+          "columns" : [ {
+            "UUID" : "a1d11ab1-5357-4f1e-8099-c593aefe67a5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1572053a-e4a6-4ae5-b25b-40f01a9853ca",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/consulta-consolidado-faturamento-total\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; <u>Consulta Consolidado para Faturamento Total</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a5d743d6-e3b7-4620-97d8-7172447bcccd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Consolidado para Faturamento Total</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6f65c621-6e86-4499-893d-bd2bbbdda852",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Realize uma consulta consolidado para Faturamento Total de acordo com o mês/ano da requisição e </span></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">grupo de contrato.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2ae4d575-3784-4b0e-ab6a-be712bc37b1b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : false,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "85317329-f147-436c-adaf-c17444625697",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5bd4d368-d94a-4561-9740-7a9c8ed1a682",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a1d11ab1-5357-4f1e-8099-c593aefe67a5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3257ceb-7987-422c-82bb-ff1d152f836a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta QDS x QDP Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2423a9b9-8898-4f3c-bce7-8cef893512ec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7dcf0525-3197-47d8-bacd-8fb856857671",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-consolidado-faturamento-total"
+}

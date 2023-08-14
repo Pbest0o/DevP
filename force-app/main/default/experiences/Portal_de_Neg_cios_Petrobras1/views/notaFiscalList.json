@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1ed15bc4-6605-4aca-a223-1208405013e1",
+  "label" : "Nota Fiscal List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início</a><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\"> </span>&gt; <span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Financeiro </span>&gt; Notas Fiscais</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5a4b587d-d9b7-4ac8-b49d-ac2a7885a91c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "10bdd6a4-5c92-43c0-bbd7-9a4532d6539f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(0, 138, 0); font-size: 28px;\">Notas Fiscais</strong></h1><h1><strong style=\"color: rgb(255, 194, 102); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "29ac8906-b6e8-45c8-8030-096d10e8bf65",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "aac621c1-3269-4475-a404-4bf811b884d9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd98d8ca-ca44-43fb-b9ad-0ac1f0845313",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8df2ede0-68e3-4a10-9c2f-3e3798a90ba4",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x05"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e781d35e-08d2-49c5-8c30-adcbe654cd5b",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "c005b206-4b2d-4a21-bc1b-6c2f6b9fe802",
+  "label" : "Suprimentos Alteracao Por Planilha",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-alteracao-por-planilha",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-alteracao-por-planilha"
+}

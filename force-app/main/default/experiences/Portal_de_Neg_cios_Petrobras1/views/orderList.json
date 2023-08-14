@@ -1,0 +1,56 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a472367a-2500-47c0-bbc6-8ec617dfdf9a",
+  "label" : "Order List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Pedidos</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Acompanhe aqui todos os seus pedidos...</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c60cee95-6c35-402e-b478-68105405f06d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "62e2d56d-38ef-4848-bee5-0281ffb89764",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 20,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "857476e5-5e7b-4e88-b8d2-69f8f3baf915",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6607b224-1584-4eaa-ad6f-19e91ca65120",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6beee8f9-30a3-4724-af7b-b2a33e7cdc9c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-801"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "99889c26-cf72-4dee-bdb4-604fac394942",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "ada062bd-73d4-400a-8585-c6a60d339da1",
+  "label" : "Download Boletos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-download-boletos",
+  "type" : "route",
+  "urlPrefix" : "download-boletos"
+}

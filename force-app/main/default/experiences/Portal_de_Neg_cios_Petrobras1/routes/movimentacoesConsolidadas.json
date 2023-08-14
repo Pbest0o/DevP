@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e89ebc3c-d3cf-4ec6-822c-b1a3bf7af875",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "bfe2bb4e-36b6-4395-89ae-0daf0669478c",
+  "label" : "Movimentacoes Consolidadas",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-movimentacoes-consolidadas",
+  "type" : "route",
+  "urlPrefix" : "movimentacoes-consolidadas"
+}

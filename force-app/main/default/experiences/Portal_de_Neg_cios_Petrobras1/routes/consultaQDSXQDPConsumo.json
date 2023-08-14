@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a7bf4dca-1aac-4546-b645-90ef5e2b7412",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "5415d9e3-969c-491c-a679-6ca14675e929",
+  "label" : "Consulta QDS x QDP Consumo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-qds-x-qdp-consumo",
+  "type" : "route",
+  "urlPrefix" : "consulta-qds-x-qdp-consumo"
+}

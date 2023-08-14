@@ -1,0 +1,86 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8c315932-71ea-4823-b63a-6a632db7279b",
+  "label" : "Consulta Quantidade Referencia",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1d058441-9f2f-4d8c-8243-41e2245ca978",
+          "columns" : [ {
+            "UUID" : "406612b8-8517-4a01-8490-5a3b748bbec0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1d058441-9f2f-4d8c-8243-41e2245ca978",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Quantidade de Referência &gt; Consultar</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a867c822-baa5-41a7-b24b-1452a4807e3d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consultar Quantidade de Referência</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "53456a76-8b34-4e90-a603-df622a47816a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:suprimentosConsultaQuantidadeReferencia",
+          "id" : "88d819d5-f5ae-4ef2-8d0e-eb53dcba7dbf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "406612b8-8517-4a01-8490-5a3b748bbec0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "65b91b09-f15e-4aa0-9fce-e199d2abd39d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consultar Quantidade Referencia"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1408cc48-22b5-41cf-8b7b-7102a9855aa3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "88918a92-d218-4cf7-841b-68bf8a7fae85",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-quantidade-referencia"
+}

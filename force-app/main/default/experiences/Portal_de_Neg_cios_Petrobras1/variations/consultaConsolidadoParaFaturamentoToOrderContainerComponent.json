@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "466abc0f-7952-41fc-9449-3166e0d23c2f",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "85317329-f147-436c-adaf-c17444625697",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Consolidado_para_Faturamento_To_orderContainer_Component",
+  "id" : "de2f287a-e2eb-4e56-a8e8-7f77e8b76a95",
+  "type" : "experienceVariation"
+}

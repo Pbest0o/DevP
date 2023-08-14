@@ -1,0 +1,24 @@
+:host {
+    display: block;
+}
+
+.slds-carousel__controls {
+    /* Estilize os botões do carousel aqui */
+}
+
+.slds-carousel__controls .slds-carousel__prev,
+.slds-carousel__controls .slds-carousel__next {
+    background-color: #008542; /* Defina a cor de fundo dos botões de avançar e retroceder */
+    color: #FFFFFF; /* Defina a cor do texto dos botões de avançar e retroceder */
+    /* Adicione mais estilos, como borda, sombra, etc., conforme necessário */
+}
+
+.slds-carousel__controls .slds-carousel__indicator {
+    background-color: #D3D3D3; /* Defina a cor de fundo dos círculos indicadores */
+    /* Adicione mais estilos, como tamanho, borda, etc., conforme necessário */
+}
+
+.slds-carousel__controls .slds-carousel__indicator.slds-is-active {
+    background-color: #008542; /* Defina a cor de fundo do círculo indicador do slide atual */
+    /* Adicione mais estilos, como tamanho, borda, etc., conforme necessário */
+}

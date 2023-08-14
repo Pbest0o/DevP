@@ -1,0 +1,104 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c0eb07f9-5b4a-4dfd-a7af-1b26761c649f",
+  "label" : "Agendamento Rodoviário",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "aa7156ee-45c4-4b41-b632-f43719d08f0e",
+          "columns" : [ {
+            "UUID" : "edb156a5-1e45-4e35-a09f-3b7eb37b4448",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "aa7156ee-45c4-4b41-b632-f43719d08f0e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/agendamento-rodoviario\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Operação</a><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">&nbsp;</span>&gt; Agendamento Rodoviário</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e4226a0c-4fee-4342-82dc-1e8e72fab071",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Agendamento Rodoviário</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a0412799-7bd6-45c1-b80e-2a3a1ee7671f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px;\">Utilize este formulário para realizar a gravação de uma Agenda de Carregamento.</span></p><p><span style=\"font-size: 16px;\">Após o prenchimento deste formulário, você pode acompanhar o mesmo no Menu Situação do Carregamento.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6c179d95-ac79-4d02-8a88-691c72de8af9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:AgendamentoRodoviarioScreen",
+          "id" : "da958844-d358-4552-aa73-b483351a86a9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bebd3557-cb0e-439e-9dc6-e5912d7dabdf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "edb156a5-1e45-4e35-a09f-3b7eb37b4448",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6f7b3845-2113-4fed-8b4b-5f06b95b894b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Agendamento Rodoviário"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87babee7-b5f7-43b6-8a40-14c3c46dd05f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6b7a1901-6b7b-4c92-9077-05ecf89d3c7c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-agendamento-rodoviario"
+}

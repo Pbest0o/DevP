@@ -1,0 +1,105 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b5d21208-c56b-45b9-a74f-78aa2c14564c",
+  "label" : "Cota - Dia",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "204ad420-4fbc-4617-9c77-8f22a42d3368",
+          "columns" : [ {
+            "UUID" : "6355fb98-6b89-4323-845a-439574026ad1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "204ad420-4fbc-4617-9c77-8f22a42d3368",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Suprimentos &gt; Cota Dia</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ec8f4224-bf5f-4cca-b01a-9ffc45bb3408",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Cota Dia</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8ff2eba4-11cb-46c7-86a2-24a8ca1d1e6b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Cota Dia",
+            "renderClassificacao" : false,
+            "renderListaProdutos" : false,
+            "renderListalocais" : false,
+            "renderLocal" : true,
+            "renderModalidade" : true,
+            "renderPeriodo" : true,
+            "renderProduto" : true,
+            "renderVisualizacao" : false
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "e1af18d3-2556-4976-881a-4440bd3fa685",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4e39b751-3445-48a5-994f-f3e816e0df0a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6355fb98-6b89-4323-845a-439574026ad1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5519b177-80ba-48c2-bd42-659336bdcdb0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Cota Dia"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "986aee14-6676-432c-8d66-4f28a961ca0b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d0e27287-295e-4749-9bfe-c8e451bd7e1d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cota-dia"
+}

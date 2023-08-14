@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1c3f3554-6ed2-4b9f-82cb-8bd02f67960e",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a072e52a-9b03-442b-86f4-e81780ab96b4",
+  "label" : "Avisos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-avisos",
+  "type" : "route",
+  "urlPrefix" : "avisos"
+}

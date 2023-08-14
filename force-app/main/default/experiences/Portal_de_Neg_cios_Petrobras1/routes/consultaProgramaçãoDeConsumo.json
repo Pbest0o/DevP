@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c099e354-091b-43cf-ac33-bdc0c80a4849",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "46d929af-fb07-4a82-abe0-7742b1b36c64",
+  "label" : "Consulta Programação de Consumo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-programacao-de-consumo",
+  "type" : "route",
+  "urlPrefix" : "consulta-programacao-de-consumo"
+}

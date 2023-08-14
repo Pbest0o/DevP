@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "4bb40096-8bbc-4ab6-b04c-803d99da412a",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "53d5c968-97d1-4b76-8572-8b4f6bfb5cbd",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Cromatografia_Apropriada_Rich_Content_Editor_Component",
+  "id" : "bb5968c9-3be0-4515-933a-c4ffff617dbb",
+  "type" : "experienceVariation"
+}

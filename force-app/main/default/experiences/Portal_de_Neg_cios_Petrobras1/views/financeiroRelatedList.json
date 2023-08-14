@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "05cc5a2a-d087-4b41-ab2e-095c5f132d6c",
+  "label" : "Financeiro Related List",
+  "regions" : [ {
+    "id" : "d3d36b9e-3b4d-4dcf-bf2e-d238c606d730",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "c384cead-d9f7-4547-8132-49bdcdd45a78",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c9e38489-085a-436d-9994-bfef58863fac",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0a70fc4f-acbc-41ab-8d65-c485cf65cdda",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x01"
+}

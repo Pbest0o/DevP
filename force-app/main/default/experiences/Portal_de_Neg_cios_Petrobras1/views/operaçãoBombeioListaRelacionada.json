@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "800c50ed-625d-4339-bfa7-f62b30e5ef7c",
+  "label" : "Operação Bombeio Lista relacionada",
+  "regions" : [ {
+    "id" : "487eb58e-c84d-425a-a595-a0d3f0e809a3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "0c398bfd-6d8a-4f2b-9c5c-73c7c785e61e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3baaa85b-edc6-45c5-86dd-717b05859ad2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0f9309d0-2816-4039-8868-eab747a1dfa2",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x0y"
+}

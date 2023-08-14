@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0f68b382-45fb-4e38-80e0-e997653057d1",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "69c91aa8-1aff-46d9-a1f8-b565bac7ad9a",
+  "label" : "Nota de Crédito e Débito List",
+  "objectApiName" : "CC_NOTA_CREDITO_DEBITO__x",
+  "routeType" : "list-x04",
+  "type" : "route",
+  "urlPrefix" : "cc-nota-credito-debito"
+}

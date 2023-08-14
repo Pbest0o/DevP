@@ -1,0 +1,79 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8a9f87bf-b10f-4d45-9075-53a25f0316f8",
+  "label" : "Dados Pessoais - Secundário",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d6478900-2597-4950-8773-0bd4b005edbe",
+          "columns" : [ {
+            "UUID" : "a63b6639-4eb1-423a-af0b-02f9b05f90fb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d6478900-2597-4950-8773-0bd4b005edbe",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p>&nbsp;<a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/acessos\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Acessos</a> &gt; <u>Dados Pessoais</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a7d1336f-cc5a-40f7-9684-80693bc8ce09",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Dados Pessoais</h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p style=\"text-align: center;\"><span style=\"color: rgb(136, 136, 136); font-size: 16px; background-color: transparent;\">Você não possui permissão para acessar essa funcionalidade.</span><span style=\"color: rgb(136, 136, 136); background-color: transparent;\">&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "dd063aa4-7e32-421b-84ea-822cab35081e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a63b6639-4eb1-423a-af0b-02f9b05f90fb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fec962c-053b-4fd1-826a-063715d5256c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Dados Pessoais"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cd6a01b2-6d44-4a79-818e-22c70efd2547",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b6a66b22-5c2c-44b1-8f40-cbc60490cc77",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-dados-pessoais"
+}

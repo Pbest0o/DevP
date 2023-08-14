@@ -1,0 +1,116 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6d5fad63-9b35-470d-8f31-299ea8108704",
+  "label" : "Consulta Penalidade",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "4c5c0757-d3ea-4827-ba48-dde0bc939ab3",
+          "columns" : [ {
+            "UUID" : "93d4f48a-3eb6-4d9b-ad90-a1568d7366d5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 195
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4c5c0757-d3ea-4827-ba48-dde0bc939ab3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/consulta-penalidade\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; <u>Consulta Penalidade</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b1d4327a-10b3-4280-947b-6080e550eda8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Consulta Penalidade</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d9fb524c-d155-4b6c-b725-beb43b85e06d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma requisição de consumo de acordo com o mês/ano da requisição, grupo de contrato, </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">período de faturamento, tipo de visualização&nbsp;e região.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e1df989e-b1ba-4a21-95b9-c31d79cdcf89",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderPeriodoFaturamento" : true,
+            "renderPontoEntrega" : true,
+            "renderRegiao" : true,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : true
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "6e7c1d97-7688-4474-8274-e92762b781f3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fed010af-8626-432c-8ec3-12f7c4a40518",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "93d4f48a-3eb6-4d9b-ad90-a1568d7366d5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4b940a5-70eb-4650-94cb-96b477a08ebf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta Penalidade"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8b059e70-11f7-4101-adc0-37ab20bde6de",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad5755b5-decb-42ba-ace5-2dd4d27e32ed",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-penalidade"
+}

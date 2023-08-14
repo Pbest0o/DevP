@@ -1,0 +1,57 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d5b0a5ff-d250-41c6-bc3d-ddb813a1c609",
+  "label" : "Sem acesso movimentações de saldo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\"> </span>&gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Financeiro </span>&gt; Movimentações de Saldo</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ae2fba03-b03e-4967-92ad-fb3cf68e8b9f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(0, 138, 0);\">Movimentações de Saldo</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 194, 102);\">—</strong></h1><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(136, 136, 136);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b3ae200e-493b-4291-9a2c-657c26964ee8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c5f776ff-307a-4394-b304-287db69684ba",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "439108f8-650d-4cc8-81ed-bc3916ac10b8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a7508911-8ed7-412a-b04b-bb8991f8a9b5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Movimentações de Saldo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1dc83568-f9e9-43da-bf05-80a4eac3a7dc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "37ba9211-b351-423d-b7ed-d963faccb400",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-movimentaes-de-saldo"
+}

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1ecdec50-886d-4e7b-9464-316dcd2c367a",
+  "label" : "Quantidade Mínima por Região - Consulta",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"color: rgb(0, 138, 0);\">Início</span>&gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span> &gt; Quantidade Mínima por Regiao - Consulta</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9ef14390-e789-4df3-95c5-4a8549209723",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consultar Quantidade Mínima por Região</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Faça aqui a consulta das quantidades mínimas por região.</span></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2a68bd4e-8572-4c4a-ae82-50d9daf9a4df",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b7b7557a-ad5f-4e51-b53f-8434515f08f0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:quantidadeMinimaPorRegiao",
+      "id" : "01439bc1-cd97-4628-ad6b-cbefad17152c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "52b02a1c-2fcd-4b45-8672-19342ca84d27",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e17ff0ec-6068-46ff-9277-30f2c26a3e80",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Quantidade Mínima por Região - Consulta"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b38c5a78-cf7b-4fd5-9680-7609169fb284",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "96e68217-7e06-499b-aed0-3e2780f48bfb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-quantidade-mnima-por-regiao-consulta"
+}

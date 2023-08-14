@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f930ab44-8bfc-4ab0-a971-74a0ccdb7a06",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "cc7a9cc3-928b-48d1-9b80-45f8c2c57db2",
+  "label" : "Suprimentos Quant Ref Guia Utilizacao",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-quant-ref-guia-utilizacao",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-quant-ref-guia-utilizacao"
+}

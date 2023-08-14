@@ -1,0 +1,55 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "3cc40d91-7e6b-46e8-8ff2-1c979a325c07",
+  "label" : "Criar Manifestação",
+  "regions" : [ {
+    "id" : "44370d11-1f6b-479d-a7da-671b04048e01",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<a class=\"slds-button slds-button_text-destructive\" href=\"#\">&lt; Voltar</a>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "c7367e7e-54c5-4e11-b05b-e583930d8dc9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:sac_Screen",
+      "id" : "435cf710-b816-4060-b116-8838da3c9bb8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d27fe29b-0ee4-4c2e-984d-dd6101969e00",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e6b354b9-b294-4d23-b406-4383a188a6da",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Criar Manifestação"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3bf3b7f5-8506-474e-95de-6ff7067f998f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bd0c094f-fbbd-4144-a92c-78d7a9d2f4c2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-criar-manifestacao"
+}

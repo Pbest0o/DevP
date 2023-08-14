@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ec239373-c5ba-4e8e-86d5-8e69842788c5",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "80925f1b-8a9c-448d-81dd-6cb135c3f15e",
+  "label" : "Suprimentos Análise de Saldo Aceite",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-analise-saldo-aceite",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-analise-saldo-aceite"
+}

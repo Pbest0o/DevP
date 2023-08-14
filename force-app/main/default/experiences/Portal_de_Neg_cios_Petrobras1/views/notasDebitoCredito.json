@@ -1,0 +1,88 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "65b76fe4-4a43-427e-b0bc-6fb75bfd10a6",
+  "label" : "notas debito credito",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "25bac332-cfe3-4105-a750-8a271c03a911",
+          "columns" : [ {
+            "UUID" : "214e303b-b433-44b4-bf7c-aa361e5dfaac",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "25bac332-cfe3-4105-a750-8a271c03a911",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início </span>&gt; <span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Financeiro </span>&gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Download Documentos Financeiros </span>&gt; Download Notas de Crédito e Débito</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2cbbe196-e503-46d3-a6e4-a572e0736edc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Download de Notas de Crédito e Débito</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Faça aqui o download em lote de suas notas de crédito e debito.</span></p><p><span style=\"font-size: 12px;\">Para fazer o download, selecione (marcando) as linhas dos registros que você deseja.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e9a7e9e2-c272-4cd5-be01-a4624688aed1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "objectApiName" : "NotaDebitoCredito"
+          },
+          "componentName" : "c:cfCustomListViewContainer",
+          "id" : "8152c191-0233-4e8d-95b0-24c51ca72f29",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "214e303b-b433-44b4-bf7c-aa361e5dfaac",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "88586c02-91e9-418e-9905-34a34edd85aa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Download Notas Crédito e Débito"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "21229fa9-33dd-4e51-b40c-d4a58e8efc50",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bd468b09-09e8-4b0e-8f2e-2c50c73ed4a7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-notas-debito-credito"
+}

@@ -1,0 +1,89 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0966280e-63d0-4686-b7cc-88fe3ef7c9fa",
+  "label" : "Usuários Master",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "9b12e8cd-7e90-42c9-b84a-dc5a44abe92a",
+          "columns" : [ {
+            "UUID" : "983d7593-8c80-4714-b741-9a9d7175a920",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9b12e8cd-7e90-42c9-b84a-dc5a44abe92a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Cadastros</span> &gt; Usuários Master</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c9c2196c-78dd-412c-8a76-be338b587aba",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>&nbsp;<strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Usuários Master</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Visualize aqui a lista de todos os Usuários Master.</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4b5dd584-600a-46ec-86d2-4243b030e2e1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "485",
+            "recordId" : "01Z870000005N3oEAE"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "1fc86ef4-8d10-4989-8e93-059030d36d89",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "983d7593-8c80-4714-b741-9a9d7175a920",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8777ac36-280f-43db-92b5-0f85507434bd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Usuários Master"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2a29398d-bbb6-4038-beaa-38be6a841b11",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7220c414-75aa-49e2-b807-3c1c2dd87524",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-usurios-master"
+}

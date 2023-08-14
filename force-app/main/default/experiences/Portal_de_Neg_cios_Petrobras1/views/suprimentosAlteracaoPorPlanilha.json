@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e781d35e-08d2-49c5-8c30-adcbe654cd5b",
+  "label" : "Suprimentos Alteracao Por Planilha",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Alteração de Pedidos &gt; Por Planilha</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ab084eec-b4f8-4efb-9213-2f2b6f1d094d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5ad085c3-0c28-4e16-8eb0-247bbe1960f0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Alteração de Pedidos - Planilha - PETROBRAS</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"background-color: rgb(237, 245, 236); color: rgb(74, 128, 74);\">O modelo atualizado da planilha pode ser obtido através do botão de \"download\" abaixo: </span></p><p><span style=\"background-color: rgb(237, 245, 236); color: rgb(74, 128, 74);\">﻿Após preencher a planilha e gravá-la em seu computador, clique no botão abaixo:</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6f5984be-b49d-4984-87a1-fae3448f3b25",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "02a02573-0da0-4b3c-9908-8f0a3dc6094e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosAlteracaoDownloadUpload",
+      "id" : "eb489a40-7188-40d4-bd9a-961f0265bcd0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c2b4c1c2-26d7-439d-8556-d8e0a854c496",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Alteracao Por Planilha"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b1dc5a4c-d646-46f9-9fa2-bb38b7127d7a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff621de2-4e35-4a93-abe6-397b16e468c8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-alteracao-por-planilha"
+}

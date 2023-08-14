@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "0fd8524d-c781-4b63-9c05-43eb5a9cfc19",
+  "label" : "Dados Pessoais",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-dados-pessoais",
+  "type" : "route",
+  "urlPrefix" : "dados-pessoais"
+}

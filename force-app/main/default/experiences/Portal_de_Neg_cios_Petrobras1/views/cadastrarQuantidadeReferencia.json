@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4007fdeb-f28f-4b35-93be-7c975aa1dcd7",
+  "label" : "Cadastrar Quantidade Referencia",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Quantidade de Referência &gt; Cadastrar</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "95110298-2fe6-4463-811f-dd7e6465a8c5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b71788b3-e370-4b29-acf7-60b29d6ead56",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Cadastrar Quantidade de Referência</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0231bdc9-be61-41a3-b21a-c215c31baa5f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e1a7a4fb-4d12-4c42-bc01-a6d024bcb3ce",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosCadastroQuantidadeReferencia",
+      "id" : "9f11ffb7-210b-4688-9b12-a8dbd9e9762b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2727d234-28a3-4e55-a04e-08ca70645280",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Cadastrar Quantidade Referencia"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ea6332d0-68b7-4ac0-9c39-e8750a99da86",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "09123f25-899b-4a48-9910-fd0af35ac70b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cadastrar-quantidade-referencia"
+}

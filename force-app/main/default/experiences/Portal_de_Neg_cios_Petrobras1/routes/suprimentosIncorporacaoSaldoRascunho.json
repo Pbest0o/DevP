@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1df9a561-b5df-453f-8652-55d5d8cbfb52",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "5afafbe1-ce57-4f52-b795-9d9762f9365e",
+  "label" : "Suprimentos Incorporacao Saldo Rascunho",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-incorporacao-saldo-rascunho",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-incorporacao-saldo-rascunho"
+}

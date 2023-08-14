@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f13989e7-7f92-4508-a0a1-980415de81d0",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "506cd3a6-9f03-4266-ac0d-e68de041f271",
+  "label" : "Suprimentos Consulta Pedido",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-consulta-pedido",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-consulta-pedido"
+}

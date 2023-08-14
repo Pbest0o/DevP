@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "083bd45b-1ecc-4f5d-9dcc-be86e6c963f1",
+  "label" : "SAC",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Fale Conosco</span> &gt; SAC</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a7d03f8e-cae1-4515-8506-02e4c0cdbbdb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">SAC</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Faça aqui o envio da sua Manifestação para o SAC.</span></p><p><span style=\"font-size: 12px;\">Utilize esse recurso quando tiver algum problema ou dúvida ao utilizar a nova plataforma.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ac964a55-8a16-48e3-bead-0fb5b75ba261",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a1c6da68-7f75-4365-a3af-9a430dfdbae7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:sac_Screen",
+      "id" : "ba2ce5e3-adb2-420a-b7bf-d250c8b60aeb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e4b5e822-2c87-46a5-8122-951e439b5832",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d04ff855-4f27-43f7-8c1a-111b8fb7d051",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SAC"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e42383e-1dd4-4e98-8758-e9cf176931ad",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1f31120a-ca27-4b9a-b454-fd3e364ca8ad",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sac"
+}

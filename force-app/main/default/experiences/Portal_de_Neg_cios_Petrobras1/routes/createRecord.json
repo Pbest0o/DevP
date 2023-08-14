@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "cf8409ea-816a-468a-a3aa-14147b0e1b13",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "f301c745-3a4a-4e23-80a2-fcdc192b1c69",
+  "label" : "Create Record",
+  "routeType" : "createrecord",
+  "type" : "route",
+  "urlPrefix" : "createrecord"
+}

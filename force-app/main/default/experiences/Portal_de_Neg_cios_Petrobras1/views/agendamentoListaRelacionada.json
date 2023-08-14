@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "846b18cd-2327-4e0f-b514-517633ba2b91",
+  "label" : "Agendamento Lista relacionada",
+  "regions" : [ {
+    "id" : "96664045-7d6a-4ca0-af04-8fe8b6e91305",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "c7292d85-c3df-478d-9fac-e5b3702b73b5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6394f4f-767a-4782-aed3-0e75605a46a9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f5fb8a4b-6e00-4f29-829a-74e336fb59b7",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x0A"
+}

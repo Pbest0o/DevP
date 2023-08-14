@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3207c5f6-3958-46a0-9a18-f9cdfa24f45b",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "915688f6-04f5-41c0-976c-e0cde0d962b3",
+  "label" : "Suprimentos Incorporacao Saldo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-incorporacao-saldo",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-incorporacao-saldo"
+}

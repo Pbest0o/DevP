@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b5d21208-c56b-45b9-a74f-78aa2c14564c",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "15d0cd4f-68ae-41d8-afd0-e4f747701a00",
+  "label" : "Cota - Dia",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cota-dia",
+  "type" : "route",
+  "urlPrefix" : "cota-dia"
+}

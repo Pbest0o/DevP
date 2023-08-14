@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "511294f2-2d84-474e-9981-9f70a52200ef",
+  "label" : "Certificado De Ensaio",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Financeiro</span> &gt; Consulta Certificados de Ensaio</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c97ac8d8-e516-441f-a2c8-8bf5093203a5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "21bacb3d-2ec3-4173-ab9f-c8445beff615",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:cfCertificadoEnsaioTable",
+      "id" : "d5c62a79-e30a-4866-8371-be8ce22ce808",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b424064b-b830-4085-a922-b73b77e43bf9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "149d82a6-7e57-4d0d-97a9-2d2e78631dcd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "52863845-72c3-4ad8-9fb4-26ac96bf9bf6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Certificado De Ensaio"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "990bb137-868d-4c60-b9ce-b51ff7b8828b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e7998ace-cde6-427e-abae-dab79239f0b7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-certificado-de-ensaio"
+}

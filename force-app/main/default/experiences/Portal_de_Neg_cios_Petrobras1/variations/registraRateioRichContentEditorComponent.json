@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "32b9b9b7-0cfb-4301-9fc5-ebe895cb37ca",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "86a02edb-7cb8-4924-b6fa-6c5b33e6dbe3",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Registra_Rateio_Rich_Content_Editor_Component",
+  "id" : "3b82b6af-4a3d-412e-b766-ba7bab83f856",
+  "type" : "experienceVariation"
+}

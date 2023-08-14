@@ -1,0 +1,38 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6bd413c3-7c01-409d-b644-a19db42c0180",
+  "label" : "Operação Bombeio Detalhe",
+  "regions" : [ {
+    "id" : "1c1a4dd0-78a4-436c-bd6c-e39af4f3c259",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "02a1a78d-79eb-403f-a568-e2a2c3b0a810",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "973f33aa-d069-40e9-975d-862f73738130",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6719ba54-3fb8-4108-aafd-873e358fd5e1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "98d61ce2-6066-4f43-8db8-7233a9acab1f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x0y"
+}

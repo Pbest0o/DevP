@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "083bd45b-1ecc-4f5d-9dcc-be86e6c963f1",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "5b6960d9-5fee-478e-b36f-35b176bd2f03",
+  "label" : "SAC",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sac",
+  "type" : "route",
+  "urlPrefix" : "sac"
+}

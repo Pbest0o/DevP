@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7eb8b02c-8404-4e46-a043-357f6694aa48",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "d4e46161-c189-4cd9-a914-b8aab8cdde49",
+  "label" : "Consulta Volume Apropriado",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-volume-apropriado",
+  "type" : "route",
+  "urlPrefix" : "consulta-volume-apropriado"
+}

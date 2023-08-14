@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "ab9cb7c7-7846-4a98-a269-22c1a007dd57",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "24134a34-e46e-40f1-b0a6-1fcfe433b54d",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Volumes_Consolidados_para_Fatur_Rich_Content_Editor_Component",
+  "id" : "cbff22a1-2fc0-4cd2-9258-f3f5c29da272",
+  "type" : "experienceVariation"
+}

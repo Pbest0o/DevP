@@ -1,0 +1,117 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c099e354-091b-43cf-ac33-bdc0c80a4849",
+  "label" : "Consulta Programação de Consumo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "1ef3f015-bd63-42d8-bb40-4f32f7aefc9d",
+          "columns" : [ {
+            "UUID" : "d250ae16-6a2c-4681-8988-4146dbd8c84b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 186
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1ef3f015-bd63-42d8-bb40-4f32f7aefc9d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/portalcliente/s/consulta-programacao-de-consumo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; <u>Consulta Programação de Consumo</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2ea9eec0-84f0-4223-b27c-74d01d7c8839",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Programação de Consumo</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "250be6c9-cb18-4098-8557-49dc640aabb6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma consulta de histórico de programação de consumo de acordo com o mês/ano da </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">requisição, grupo de contrato e data da programação.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "af67cc91-2b6f-47be-b70c-781372d21157",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderDataAmostragem" : false,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : false,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderRequisicao" : false,
+            "renderScheduleDate" : true,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "4c5ee35c-1efd-49ee-82e4-60f806e42225",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e5e74a97-7859-4e2c-a1fb-73ca9760de02",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d250ae16-6a2c-4681-8988-4146dbd8c84b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4dec482-a430-405e-b658-4514e60e1f79",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Consulta Programação de Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e5192fc7-d806-4129-a83b-f829ad25d0b9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "68221c9c-03eb-4fac-aa65-3501ea6d54ae",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-programacao-de-consumo"
+}

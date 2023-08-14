@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1ecdec50-886d-4e7b-9464-316dcd2c367a",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "22209838-dae6-438d-9c55-a5cd70f09926",
+  "label" : "Quantidade Mínima por Região - Consulta",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-quantidade-mnima-por-regiao-consulta",
+  "type" : "route",
+  "urlPrefix" : "quantidade-mnima-por-regiao-consulta"
+}

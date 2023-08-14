@@ -1,0 +1,92 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "d74fbf2a-3c14-418b-9599-3e7840d37c3c",
+  "label" : "visualizarcookies",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4acf3675-5965-4085-898d-3d462378860d",
+          "columns" : [ {
+            "UUID" : "5ea07a16-753a-47dc-8cad-a462e97efabd",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4acf3675-5965-4085-898d-3d462378860d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "confirmButtonLabel" : "Confirmar",
+            "cookieFooterBackgroundColor" : "rgb(0,0,0)",
+            "cookieFooterButtonAlignment" : "left",
+            "cookieFooterLinkColor" : "rgb(250, 250, 250)",
+            "cookieFooterPadding" : "medium",
+            "cookieFooterRelative" : false,
+            "cookieFooterTextColor" : "rgb(250, 250, 250)",
+            "displayType" : "modal",
+            "headingLabel" : "Gerenciar Cookies",
+            "informationButtonLabel" : "",
+            "instructions" : "",
+            "previewInBuilder" : true,
+            "rejectButtonLabel" : "",
+            "useRelaxedCSP" : false,
+            "viewCookiesLabel" : ""
+          },
+          "componentName" : "cookiecon:cookieConsent",
+          "id" : "b9818dc7-f889-4260-8952-8195e90ebbb7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(0, 138, 0);\">Agora que você definiu suas preferências de cookies poderá continuar navegando normalmente pelo portal!</span></p><p><br></p><p><span style=\"color: rgb(68, 68, 68); font-size: 16px;\">Nosso canal de relacionamento busca ter um contato mais personalizado. Gostaríamos do seu feedback para melhorarmos ainda mais sua experiência de uso do portal.</span><span style=\"font-size: 20px;\">﻿</span><span style=\"font-size: 20px; color: rgb(0, 138, 0);\">﻿</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "99513233-6899-497a-8828-8944b1ceb6a4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5ea07a16-753a-47dc-8cad-a462e97efabd",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e17a556a-0ca9-41fe-b298-5c995b425764",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "visualizarcookies"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "385fcde0-73fd-4f20-8601-e0af2439cd1d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "90e64d75-4fde-499d-bffd-9fd2c13c76c4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-visualizarcookies"
+}

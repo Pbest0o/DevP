@@ -1,0 +1,44 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "af5179f3-2cd6-4435-8d9d-49bbeaedcc49",
+  "label" : "Report List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Meus Relatótios</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Visualize aqui o status ...</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6c0f0c68-23b9-43f3-9ccd-a98c1f71db23",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2528a07a-b5f2-4c61-baf1-ef2a907ddea8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "800",
+        "recordId" : "01Z5e000000KmoQEAS"
+      },
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "3f3417cb-1e8e-4308-af32-6f5d0cc66e1c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "31b102e9-404b-4fdf-b959-164c8b558917",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f81218c8-3fa9-4ed6-af02-f88723b14b04",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-00O"
+}

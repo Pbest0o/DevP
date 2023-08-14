@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e89ebc3c-d3cf-4ec6-822c-b1a3bf7af875",
+  "label" : "Movimentacoes Consolidadas",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Suprimentos &gt; Movimentações &gt; Consolidadas</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d9f7d6f5-9b3f-4fd2-8591-bef590438045",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd82290f-e01c-40a7-9159-492e669897ac",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Movimentações Consolidadas</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9044a979-1e5a-4a8a-94e0-e1c98c2d98de",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d69bb08-ef75-47bc-b2fb-9fa505d660db",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:movimentacoesConsolidadasScreen",
+      "id" : "a233c183-6312-4ef8-bbea-1363e4b72ac8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9ed3cbf2-93d2-4061-86c6-b7fc55c048a7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Movimentações Consolidadas"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "09f46c6d-b7d6-40d8-a4b5-5f800e1db890",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5d96d19b-0906-4499-a74b-1462607b8887",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-movimentacoes-consolidadas"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "453c74be-ae6e-4c12-82ee-51c3805aa6c6",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "57dcfd65-0d21-44b7-a105-79194b720d96",
+  "label" : "Suprimentos Download Planilha",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-download-planilha",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-download-planilha"
+}

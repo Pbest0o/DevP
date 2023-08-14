@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bc7be162-a74b-409e-a899-56eea10b03c0",
+  "label" : "Nota Fiscal Related List",
+  "regions" : [ {
+    "id" : "75d77438-7fae-4169-98c9-6995af1de606",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "bf328669-0319-4925-84bc-d0dbf49b3e18",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1c88f4da-9fed-4b62-85bf-2d6eeee715b3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "09ce4d63-daa6-4e60-8c53-53d5b27f83df",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x05"
+}

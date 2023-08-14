@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6f59186f-6d49-41db-9a80-a20f03beedae",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "d0e0d045-ecfb-485e-b6fb-2c77f1f44471",
+  "label" : "Motorista Detalhe",
+  "objectApiName" : "CC_MOTORISTA__x",
+  "routeType" : "detail-x0S",
+  "type" : "route",
+  "urlPrefix" : "cc-motorista"
+}

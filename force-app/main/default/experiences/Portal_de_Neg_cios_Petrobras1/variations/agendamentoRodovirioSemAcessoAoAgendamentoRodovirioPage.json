@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "20ceeb75-d90a-430e-990e-b98b447d50d3",
+    "propertyOverrides" : {
+      "activeViewId" : "2b68073d-4853-4ffa-b767-055e0f8557db"
+    },
+    "targetId" : "5c0ce387-058a-4a1e-afbc-91018a574e37",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Agendamento_Rodovirio_Sem_acesso_ao_Agendamento_Rodovirio_Page",
+  "id" : "799a0e12-d5b3-49a7-9ef3-1d199ace6bc9",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "2e266946-eaf3-421e-82f3-34d10018d8ca",
+  "label" : "Suprimentos Dest Final QAV",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Destinação Final de QAV &gt; Consulta</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9877bbeb-7abd-4cc2-8acd-3105aa675a46",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3cdc4970-f02a-4af1-82ab-03e374b4f3de",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Destinação Final de Produto - Consulta</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "eceed805-c99b-46eb-908d-6ff25581a9cd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d241d56-9e2b-4bb5-a18f-950959429253",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosConsultaDestinacaoFinalQAV",
+      "id" : "fd3ec2ee-5e26-494e-a79a-f18a135cc90c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "59fe8265-fecf-4dd0-afdf-744b979507a8",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Dest Final QAV"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f3bf3bd2-d8f7-41b5-a9cc-a84595882839",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3fdf7955-416d-484d-872d-3626751b7ffe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-dest-final-qav"
+}

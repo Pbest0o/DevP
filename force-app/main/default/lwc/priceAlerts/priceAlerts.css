@@ -1,0 +1,14 @@
+.black-utility-icon {
+        --sds-c-icon-color-foreground-default: #000000;
+}
+
+.lwc-price-alerts{
+  margin: 15px 0;
+  background-color: #FEE497;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 4px;	
+  padding-top: 3px;
+  padding-bottom: 3px; 
+}

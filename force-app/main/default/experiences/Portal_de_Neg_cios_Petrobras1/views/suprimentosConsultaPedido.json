@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f13989e7-7f92-4508-a0a1-980415de81d0",
+  "label" : "Suprimentos Consulta Pedido",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Pedido &gt; Por Planilha</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "463c727b-c059-45d7-ac64-602f13b55d1e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7aa0877-c626-4541-9ebd-48869f811401",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Pedidos - Consulta - PETROBRAS</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6882b3bb-7c5c-4ff6-b7e4-6833b09c4a91",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e05dcf53-98bf-4742-bc03-e80b50168187",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosConsultaPedidos",
+      "id" : "05cfca04-973a-4673-992f-c500d5958a68",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6df74364-3f4c-4b69-8d1a-a9deaab6761a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Consulta Pedido"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b09ba248-b3f9-4cba-b26b-17c7a72cfd86",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f0564b7a-4ea8-4dfc-bfb8-4c53ebe27767",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-consulta-pedido"
+}

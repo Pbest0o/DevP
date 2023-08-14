@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "a923b880-2852-411d-a5d6-12c1cae1bd76",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "032f5e0d-f890-46a7-b386-b0683250a77c",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Histrico_de_Programao_de_Consumo_orderContainer_Component",
+  "id" : "1b66253b-c4d0-4109-9a38-7120654cf2bf",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "4007fdeb-f28f-4b35-93be-7c975aa1dcd7",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "68bc4c45-f81b-4cc9-8897-93d6fb4d8d8d",
+  "label" : "Cadastrar Quantidade Referencia",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cadastrar-quantidade-referencia",
+  "type" : "route",
+  "urlPrefix" : "cadastrar-quantidade-referencia"
+}

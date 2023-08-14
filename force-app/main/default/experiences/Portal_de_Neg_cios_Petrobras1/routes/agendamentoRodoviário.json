@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c0eb07f9-5b4a-4dfd-a7af-1b26761c649f",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "5c0ce387-058a-4a1e-afbc-91018a574e37",
+  "label" : "Agendamento Rodoviário",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-agendamento-rodoviario",
+  "type" : "route",
+  "urlPrefix" : "agendamento-rodoviario"
+}

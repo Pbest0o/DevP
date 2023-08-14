@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4d838db6-2e38-4bb0-b6e0-2dd422692276",
+  "label" : "Nota de Crédito e Débito Related List",
+  "regions" : [ {
+    "id" : "3d16a11b-4715-4f0c-8205-11ef8a8cb619",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "0d457750-c482-443f-9141-511ce601de88",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4276209c-9837-48f9-9d68-ff0f27cfb2b8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "39f32d76-be5f-44ec-974d-b7c6c2ad7def",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x04"
+}

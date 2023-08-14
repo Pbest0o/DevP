@@ -1,0 +1,116 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "44b8191b-7321-4090-96c3-695eeb397003",
+  "label" : "Registra Rateio",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "1d5c3638-e1f0-48db-8fd6-b6342369e5a5",
+          "columns" : [ {
+            "UUID" : "7c352d56-46af-4721-a82b-c6fb2798a88a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1d5c3638-e1f0-48db-8fd6-b6342369e5a5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/registra-rateio\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; <u>Registra Rateio</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f0af26e8-c4eb-4234-91b5-f864997dc207",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Registra Rateio</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "637ee29f-9f4d-41fe-a88a-fb3799665962",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p>&nbsp;<span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma requisição de registra rateio de acordo com o mês/ano da requisição, grupo de contrato, </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">período de faturamento e ponto de entrega, além da possibilidade de gerar planilha.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "be469deb-72d2-4db9-b012-18be9334be38",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderPeriodoFaturamento" : true,
+            "renderPontoEntrega" : true,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "ad63e845-8d26-4991-b5a1-b693d35c66fc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "86a02edb-7cb8-4924-b6fa-6c5b33e6dbe3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7c352d56-46af-4721-a82b-c6fb2798a88a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ce368adf-bbe7-4cc0-9750-61d26d687a7f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta QDS x QDP Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fe4f912b-8b3b-4340-9d80-c4b8d0e6841d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a79d6d8a-0a7c-467d-882d-9d57a96bd213",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-registra-rateio"
+}

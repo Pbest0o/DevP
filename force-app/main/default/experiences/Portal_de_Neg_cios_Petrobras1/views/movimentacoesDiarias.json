@@ -1,0 +1,105 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f79e30d2-97de-4976-b743-e5e1206440d2",
+  "label" : "Movimentacoes Diarias",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "133e24e1-3775-461d-ab35-2856a6daaa6d",
+          "columns" : [ {
+            "UUID" : "187ecbd4-7335-4909-bdae-58bedae452eb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "133e24e1-3775-461d-ab35-2856a6daaa6d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Movimentações &gt; Diárias</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5caebe70-fa1f-4785-854c-41dbc9e543f9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Movimentações Diárias</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3d8c6751-2ea7-4617-8e6a-f11c177d1edb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Movimentações Diárias",
+            "renderClassificacao" : false,
+            "renderListaProdutos" : false,
+            "renderListalocais" : false,
+            "renderLocal" : true,
+            "renderModalidade" : false,
+            "renderPeriodo" : true,
+            "renderProduto" : true,
+            "renderVisualizacao" : false
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "383f85ea-7607-42e4-9855-97e5143715fc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "45d0f214-45c8-4614-a388-6090b4b4dffb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "187ecbd4-7335-4909-bdae-58bedae452eb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1bbde987-c447-4637-8a1b-93094aa5927c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Movimentações Diárias"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8580805b-25f9-4d26-9679-6111b582d8ec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fbeb1e99-9c7f-4701-a835-78ba37ff8d6a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-movimentacoes-diarias"
+}

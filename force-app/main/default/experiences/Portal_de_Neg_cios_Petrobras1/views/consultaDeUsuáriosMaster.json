@@ -1,0 +1,89 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9e2915fe-27e8-4268-bb23-884b2d0bab9d",
+  "label" : "Consulta de Usuários Master",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "80dfb45c-fade-431a-8fd0-4707d892537e",
+          "columns" : [ {
+            "UUID" : "2a05caaa-0fb2-4d72-8e37-1b5c9a0d7281",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "80dfb45c-fade-431a-8fd0-4707d892537e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/acessos\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0);\">Acessos</a> &gt; <u>Usuários Master</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cb0c47ef-7582-4980-8cf0-a826a003c7fe",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>&nbsp;<strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Usuários Master</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Visualize aqui a lista de todos os Usuários Master.</span></p><p>...</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "93a6cbbc-68c9-44e0-8fe7-b110a745c545",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "900",
+            "recordId" : "01Z870000005N3oEAE"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "35ace5a7-8de0-4ede-9cc9-34e2913d8ae4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2a05caaa-0fb2-4d72-8e37-1b5c9a0d7281",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5ec4d5ad-e858-4a40-9f95-ff55af6f758e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta de Usuários Master"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6ed9bcb5-3e1c-403c-8f2e-c6bb07e816c3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d0462706-767e-4bab-8fb3-a23084d65295",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-de-usurios-master"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "df5a0af5-39a3-473f-abf1-ba99f27cfd26",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2ae4d575-3784-4b0e-ab6a-be712bc37b1b",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Consolidado_para_Faturamento_To_Rich_Content_Editor_1_Component",
+  "id" : "16d94495-3a31-4ef3-b664-413677404812",
+  "type" : "experienceVariation"
+}

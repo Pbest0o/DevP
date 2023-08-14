@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "f0d4fae0-a4dc-4c73-9405-25d110bd2ecb",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "bebd3557-cb0e-439e-9dc6-e5912d7dabdf",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Agendamento_Rodovirio_Rich_Content_Editor_Component",
+  "id" : "9ed7ce8d-671a-43a3-8b36-197972fe9174",
+  "type" : "experienceVariation"
+}

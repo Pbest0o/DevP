@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>emptyClaims</members>
+        <members>priceAlerts</members>
+        <members>priceTableView</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <types>
+        <members>emptyClaimsLabel</members>
+        <name>CustomLabel</name>
+    </types>
+    
+     <types>
+        <members>CCPriceTableViewController</members>
+        <members>CCPriceTableViewControllerTest</members>
+        <members>PriceAlertsController</members>
+        <members>PriceAlertsControllerTest</members>
+        <members>MultiLevelNavigationMenuController</members>
+        <members>MultiLevelNavigationMenuControllerTest</members>
+        <members>CCEmptyClaimsController</members>
+        <members>CCEmptyClaimsControllerTest</members>
+        
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>CanalClienteBanner</members>
+        <members>green_chart_pie_slice_fill </members>
+        <members>green_chat_circle_text_fill</members>
+        <members>green_chats_fill</members>
+        <members>green_currency_circle_dollar_fill</members>
+        <members>green_cylinder_fill</members>
+        <members>green_database_fill</members>
+        <members>green_folder_open_fill</members>
+        <members>green_gas_can_fill</members>
+        <members>green_gauge_fill</members>
+        <members>green_question_fill</members>
+        <members>green_receipt_fill</members>
+        <members>green_test_tube_fill</members>
+        <members>green_truck_fill</members>
+        <members>carousel_card1</members>
+        <members>card1</members>
+        <members>card2</members>
+        <members>card3</members>
+        <members>card4</members>
+        <members>PetroSans</members>
+        <members>CanalClienteFooterTwitter</members>
+        <members>CanalClienteFooterFacebook</members>
+        <members>CanalClienteFooterFacebook</members>
+        <members>CanalClienteFooterInstagram</members>
+        <members>CanalClienteFooterYoutube</members>
+        <members>CanalClienteFooterLinkedin</members>
+        <members>CanalClienteFooterLogo</members>
+        <members>shoppingcart</members>
+        <members>checkfill</members>
+        <members>checksfill</members>
+        <members>cubefill</members>
+        <members>flaskfill</members>
+        <members>green_folder_open_fill</members>
+        <members>CanalClienteBannerHomeTagline </members>
+        <members>CanalClienteBannerHome</members>
+        <name>StaticResource</name>
+    </types>
+
+
+    <types>
+        <members>Usuario_CMI</members>
+        <members>Usuario_Gas</members>
+        <name>CustomPermission</name>
+    </types>
+    
+    <types>
+        <members>Usu_rio_CMI</members>
+        <members>Usu_rio_G_s</members>
+        <members>Usu_rios_CMI_G_s</members>
+        <members>Guest_User</members>
+        <name>Audience</name>
+    </types>
+   
+   <types>
+        <members>Portal de Negócios Petrobras</members>
+        <name>Network</name>
+    </types>
+
+    <types>
+        <members>Portal_de_Neg_cios_Petrobras</members>
+        <name>CustomSite</name>
+    </types>
+
+    <types>
+        <members>Portal_de_Neg_cios_Petrobras1</members>
+        <name>ExperienceBundle</name>
+    </types>
+
+    
+    <types>
+        <members>multiLevelNavigationMenu</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    
+    <types>
+        <members>CanalCliente</members>
+        <members>CanalCliente/Canal_Cliente_Manifestacoes_l0p</members>
+        <name>Report</name>
+    </types>
+
+    <types>
+        <members>Documento_Relacionado__c.Periodo__c</members>
+        <members>Documento_Relacionado__c.Tipo_de_Arquivo__c</members>
+        <name>CustomField</name>
+    </types>
+
+    
+    <types>
+        <members>Canal_Cliente_UX_CMI</members>
+        <members>Canal_Cliente_UX_Gas</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <version>57.0</version>
+</Package>

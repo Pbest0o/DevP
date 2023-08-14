@@ -1,0 +1,56 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8fd1919a-41cd-415d-9ff8-27d1231e23fb",
+  "label" : "Account Management",
+  "regions" : [ {
+    "id" : "8c0df607-dc8b-40c7-bd5d-b7442d36da18",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customVFPage" : "",
+        "disableLoadInPage" : false,
+        "height" : "",
+        "language" : "English",
+        "layout" : "newport",
+        "recordId" : "{!recordId}",
+        "scrollOffset" : "90",
+        "subtype" : "AgendamentoPortal",
+        "type" : "Portal"
+      },
+      "componentName" : "vlocity_cmt:OmniScriptCommunity",
+      "id" : "612e22d2-8f2e-4b4c-bdce-36cfc61b0675",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c630cb94-4663-4163-af6f-4f81d5788653",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f55d752b-1fb3-486a-a00c-aa264d933beb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Account Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d5ecbc58-d378-4e5d-8476-38fcc8939742",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3849363-22f7-427c-a420-154a071bc210",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "account-management"
+}

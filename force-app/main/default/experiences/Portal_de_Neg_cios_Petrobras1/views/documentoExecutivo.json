@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a03877c4-2177-4f51-a0fa-b1d892fb3575",
+  "label" : "Documento Executivo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Executivo </span>&gt; Documentos Executivos</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5586a3c0-bdb3-4056-a1a3-55600d211227",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5126ef91-011f-4398-a500-643c3f1e3e54",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Documentos Executivos</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Escolha uma das opções de visualização da lista e faça o download dos documentos executivos.</span></p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "56709a8b-80a8-4f80-9c15-8e9a39414af6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:documentoExecutivoPortal",
+      "id" : "0653cac7-e6f2-4b96-86c5-875364afe944",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "44f59226-d3eb-4e65-957d-590187b957f8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "83984136-d6a1-491c-ad04-305d81347851",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Documento Executivo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2aafd579-4235-4eef-be24-f227f13d911b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3e7b0675-bf13-4038-94cc-0c54fbbd6121",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-executivo"
+}

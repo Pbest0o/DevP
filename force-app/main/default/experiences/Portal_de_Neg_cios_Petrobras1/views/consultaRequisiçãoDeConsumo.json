@@ -1,0 +1,118 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7123f6a7-81c4-4395-9aca-bbc5e32f02cf",
+  "label" : "Consulta Requisição de Consumo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "6188d347-4689-4d83-b1d5-3e3fc5b747fc",
+          "columns" : [ {
+            "UUID" : "ab09741f-6029-4fb0-a2b0-01a1a4169242",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 186
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6188d347-4689-4d83-b1d5-3e3fc5b747fc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/portalcliente/s/consulta-requisicao-de-consumo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; Consulta Requisição de Consumo</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "374d5dc5-5a66-4cd0-8a1a-73ee37919e64",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Requisição de Consumo</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "78910b11-50f6-478d-89aa-92c0dfdffb14",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma consulta de requisição de consumo de acordo com o mês/ano da </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">requisição, grupo de contrato, data e tipo da requisição.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1b838462-bf35-44d1-84ff-70594c158695",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : true,
+            "renderDataAmostragem" : false,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : false,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderRequisicao" : true,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "360c8034-97ff-464b-ba4c-38c948b94973",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4bff1785-172e-407f-bbe8-5eb7b6953b35",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ab09741f-6029-4fb0-a2b0-01a1a4169242",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6785239d-f5c6-4d14-bf6a-53b2b8b10e58",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta Requisição de Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "52068c44-9aaf-44cd-a5dd-ef20d8a47312",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5aa770c0-d788-4800-9196-b257a25de00f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-requisicao-de-consumo"
+}

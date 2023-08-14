@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ec8b2c19-5d90-4497-aab5-bcb2587e8a0d",
+  "label" : "Suprimentos Retiradas Faturadas",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Destinação Final de QAV &gt; Retiradas Faturadas</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6455d4a2-56c5-4578-be0a-0f74bb8cae40",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "96806737-fc58-4685-94ca-9bf418896f47",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Retiradas Faturadas de QAV - PETROBRAS</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><h1><br></h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3e932642-5bce-482e-beec-af13cd4e59c9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fd5ff93-b7e7-4f22-bdc9-6f02564b252c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosDestinacaoFinalQavRF",
+      "id" : "cc41d0c8-b523-4089-b0cb-426fe60d8a03",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d0aaa284-849c-4d38-b466-a8cc68f8b7ed",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Retiradas Faturadas"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c4de8ffc-faba-48dc-b6d6-d3badd8cc5ba",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2959dcbc-bf3c-4068-9ab5-67b0f1a191a5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-retiradas-faturadas"
+}

@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "09804b2e-6aa2-4521-a5e5-09c91fcf9964",
+  "label" : "Suprimentos Alteracao Rascunho",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Alteração de Pedido &gt; Por Planilha</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d13d254f-dfd6-48d5-9229-d689446732da",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "03d1e53f-76c1-4f8f-807a-fcd655d2ee5f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Preenchimento de Rascunho de Alteração de Pedido - PETROBRAS</strong></h1><h1><br></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "565f5f2b-317a-4431-96c2-e4a0087f1634",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7c6186ca-d46c-478a-8340-7c2142753b6b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosAlteracaoRascunhoPedido",
+      "id" : "f29b8296-3df9-48ac-991d-1637ad888d3f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0b9d3dfe-10f8-41d3-b31c-76584b32da25",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Alteracao Rascunho"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7eb3ed11-ca6c-4c80-9ad6-7299f354d655",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a6848eb5-e2ba-4658-b3a6-948e206063cf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-alteracao-rascunho"
+}

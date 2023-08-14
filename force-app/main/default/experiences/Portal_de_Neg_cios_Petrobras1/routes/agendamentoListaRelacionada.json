@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "846b18cd-2327-4e0f-b514-517633ba2b91",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "31779739-39ab-4852-8fb5-f2ebd6fa1333",
+  "label" : "Agendamento Lista relacionada",
+  "objectApiName" : "CC_AGENDAMENTO__x",
+  "routeType" : "relatedlist-x0A",
+  "type" : "route",
+  "urlPrefix" : "cc-agendamento"
+}

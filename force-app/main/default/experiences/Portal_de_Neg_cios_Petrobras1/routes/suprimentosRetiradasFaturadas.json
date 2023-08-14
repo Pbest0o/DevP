@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ec8b2c19-5d90-4497-aab5-bcb2587e8a0d",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a754f7f1-92aa-472c-a21a-4233304644e8",
+  "label" : "Suprimentos Retiradas Faturadas",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-retiradas-faturadas",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-retiradas-faturadas"
+}

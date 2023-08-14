@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "5edb6187-80e2-469b-9951-0e12861e177c",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "f109cc12-6dac-4482-994d-24a83617b430",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Cromatografia_Apropriada_orderContainer_Component",
+  "id" : "bc111d0a-bd33-43d0-9deb-229261372ee1",
+  "type" : "experienceVariation"
+}

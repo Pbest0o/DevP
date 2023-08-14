@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "6b9564a7-3c38-4142-b329-d6dd6991d7f1",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "360c8034-97ff-464b-ba4c-38c948b94973",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Requisio_de_Consumo_orderContainer_Component",
+  "id" : "dac6b863-2ebe-4e1b-8a91-0f21ed5550c6",
+  "type" : "experienceVariation"
+}

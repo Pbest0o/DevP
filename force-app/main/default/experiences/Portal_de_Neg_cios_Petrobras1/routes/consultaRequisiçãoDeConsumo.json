@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7123f6a7-81c4-4395-9aca-bbc5e32f02cf",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "353621e3-8e1a-45e2-99a0-c2b1a5b36db6",
+  "label" : "Consulta Requisição de Consumo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-requisicao-de-consumo",
+  "type" : "route",
+  "urlPrefix" : "consulta-requisicao-de-consumo"
+}

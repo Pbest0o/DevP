@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ff614c82-8ff7-441d-9e60-4262a214cd3e",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "eaa63189-ffa4-466b-8c87-8fca8afb27ac",
+  "label" : "Centro Lista relacionada",
+  "objectApiName" : "CC_MUNICIPIO__x",
+  "routeType" : "relatedlist-x03",
+  "type" : "route",
+  "urlPrefix" : "cc-municipio"
+}

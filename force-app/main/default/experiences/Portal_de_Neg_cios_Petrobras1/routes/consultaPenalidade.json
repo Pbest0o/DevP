@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6d5fad63-9b35-470d-8f31-299ea8108704",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "bf1570f9-58ec-49ab-8269-750132de26e7",
+  "label" : "Consulta Penalidade",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-penalidade",
+  "type" : "route",
+  "urlPrefix" : "consulta-penalidade"
+}

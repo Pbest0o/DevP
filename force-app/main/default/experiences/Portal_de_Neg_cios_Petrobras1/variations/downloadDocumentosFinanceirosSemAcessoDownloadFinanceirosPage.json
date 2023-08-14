@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "1b014f63-5afd-4694-a37c-98e5e968cf01",
+    "propertyOverrides" : {
+      "activeViewId" : "90ac27b4-17d6-4af3-96c1-15aec0702d30"
+    },
+    "targetId" : "8f4159ad-d451-4565-80c9-2c7cb874610a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Download_Documentos_Financeiros_Sem_acesso_download_financeiros_Page",
+  "id" : "87a53c4d-6470-4e8a-b20a-6bc9887a7bd1",
+  "type" : "experienceVariation"
+}

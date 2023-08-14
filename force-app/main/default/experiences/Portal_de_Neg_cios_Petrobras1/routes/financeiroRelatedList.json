@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "05cc5a2a-d087-4b41-ab2e-095c5f132d6c",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "1fa95388-7eac-4d4e-b6aa-ebb11430f81d",
+  "label" : "Financeiro Related List",
+  "objectApiName" : "CC_CONTA_CLIENTE__x",
+  "routeType" : "relatedlist-x01",
+  "type" : "route",
+  "urlPrefix" : "cc-conta-cliente"
+}

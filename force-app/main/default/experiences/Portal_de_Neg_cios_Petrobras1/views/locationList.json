@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f0583c98-3c80-4fcb-847d-0484f6842da8",
+  "label" : "Location List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/acessos\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Acessos</a> &gt; <u>Locais</u></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1ffe4d3a-5338-4bd1-a0e3-48a786270cf7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Locais</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Visualize todos os Centros onde você poderá retirar produtos Petrobras.</span></p><p><span style=\"font-size: 12px;\">Para acessar um local especifíco clique no 'Nome do Local'.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f9288a63-7fd8-42a0-be89-6b93cbe4e38b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "289f8083-b30a-4943-9294-d734fa4baaf0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "eba0fde4-7737-4d36-8c60-0d3c1eca09dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d016de9-93bc-436a-8010-4fbdc3209623",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0721a4b3-4e0c-4fb3-87aa-a3c10df78b86",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-131"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2ce3a41e-444c-4842-aab2-e4a4ba37326a",
+  "label" : "Movimentações de Saldo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-movimentaes-de-saldo",
+  "type" : "route",
+  "urlPrefix" : "movimentaes-de-saldo"
+}

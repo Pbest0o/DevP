@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d2d58126-8abf-4f7c-947c-b3f6e17bc093",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "6e7c1d97-7688-4474-8274-e92762b781f3",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Penalidade_orderContainer_Component",
+  "id" : "99543f19-4d04-49ad-8166-810e48e035b3",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "be03c1b2-bfff-43ac-8301-1b3a0fda32c1",
+    "propertyOverrides" : {
+      "activeViewId" : "d5b0a5ff-d250-41c6-bc3d-ddb813a1c609"
+    },
+    "targetId" : "2ce3a41e-444c-4842-aab2-e4a4ba37326a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Movimentaes_de_Saldo_Sem_acesso_movimentaes_de_saldo_Page",
+  "id" : "88675a01-7cdb-494a-be30-8f2d9a9be460",
+  "type" : "experienceVariation"
+}

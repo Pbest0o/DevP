@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "502e0911-5724-4401-8cf4-a17b5f5fe0fe",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "1b838462-bf35-44d1-84ff-70594c158695",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Requisio_de_Consumo_Rich_Content_Editor_Component",
+  "id" : "9a618cf0-3ec2-44e0-8de6-9d0cb31b0dcf",
+  "type" : "experienceVariation"
+}

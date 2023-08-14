@@ -1,0 +1,115 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "78c4fc75-2c57-47a5-9e9e-de0218af582e",
+  "label" : "Histórico de Programação de Consumo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "316d4a02-f335-4fc4-8312-6f189d7131e9",
+          "columns" : [ {
+            "UUID" : "a53c9f70-9005-48f3-a2b7-ec804ec39044",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 186
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "316d4a02-f335-4fc4-8312-6f189d7131e9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/s/historico-de-programacao-de-consumo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; <u>Consulta Histório de Programação de Consumo</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b9806e9f-3b90-4a94-9d85-9e7ff37f09ae",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Histórico de Programação de Consumo</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "806deddf-bd33-452e-814e-e67aa6b96e7a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Realize uma consulta de histórico de programação de consumo de acordo com o mês/ano da </span></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">requisição, grupo de contrato, contrato e data da programação.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "123f34ed-93f2-4289-a87a-3bc3fa94757f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : true,
+            "renderContractGroup" : true,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : false,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderScheduleDate" : true,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "032f5e0d-f890-46a7-b386-b0683250a77c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e3dbbe42-050c-439a-80bd-e456c7340077",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a53c9f70-9005-48f3-a2b7-ec804ec39044",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5855c0ba-179a-4759-ab5b-c63c6cef70fa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Histórico de Programação de Consumo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f0f992ab-d1f8-4169-8ae2-3dcb50ec17c4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fffdc12b-9865-48a1-8f2e-e6215bfaf640",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-historico-de-programacao-de-consumo"
+}

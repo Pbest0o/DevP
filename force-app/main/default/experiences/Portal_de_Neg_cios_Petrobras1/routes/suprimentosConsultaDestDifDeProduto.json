@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7d11dcf3-3052-4c3e-aa75-25a175e19a84",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "854c2f1a-2f51-46b4-a707-266a2867c2df",
+  "label" : "Suprimentos Consulta Dest Dif de Produto",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-consulta-dest-dif-de-produto",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-consulta-dest-dif-de-produto"
+}

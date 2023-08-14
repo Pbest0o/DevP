@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c71ff469-6a86-4d34-b208-d1b95cbe051d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "0f6040f8-6fd9-4d31-94c1-c2f750c99f7e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Extrato_de_Cota_Rich_Content_Editor_Component",
+  "id" : "20a5b276-d559-46c7-8f5b-2f4a57bac697",
+  "type" : "experienceVariation"
+}

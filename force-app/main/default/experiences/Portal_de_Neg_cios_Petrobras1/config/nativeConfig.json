@@ -1,0 +1,30 @@
+{
+  "id" : "079baac7-7559-4078-a974-a51e13f1673e",
+  "mobilePublisherAppUpdateConfig" : {
+    "forceAppUpdate" : true,
+    "enableAppUpdate" : true,
+    "minVersion" : {
+      "ios" : {
+        "version" : "10.0",
+        "url" : "https://apps.apple.com/us"
+      },
+      "android" : {
+        "version" : "10.1",
+        "url" : "https://play.google.com/store"
+      }
+    }
+  },
+  "nativeMobileNavConfig" : {
+    "showBackButton" : true,
+    "showHamburgerMenuWithBackButton" : false
+  },
+  "nativeTabMenu" : {
+    "branding" : {
+      "iconTintColorUnselected" : "#C9C5C5",
+      "barTintColor" : "#FFFFFF"
+    },
+    "menuItems" : [ ]
+  },
+  "showHamburgerMenu" : true,
+  "type" : "nativeConfig"
+}

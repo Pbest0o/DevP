@@ -1,0 +1,48 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "dcae2575-faba-4719-b6f7-408754f4d0b7",
+  "label" : "Error",
+  "regions" : [ {
+    "id" : "06d852ea-dd40-4df0-b7aa-cbec12f8013d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"font-family: var(--lwc-fontFamilyHeader,PetrobrasSans2); font-size: 28px; color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Ocorreu um Erro!</span></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p style=\"text-align: center;\"><br></p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8ed89fc1-20da-4883-b424-4ed95af9c97a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "40d62b21-3b8a-46cd-87da-40ec76c12229",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7db871a0-d574-44a2-928a-7a908446d221",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c82055ce-d5a1-4372-ae16-56179b5719a3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3475af03-d3ba-4a66-8e1d-d2bccee99ec4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

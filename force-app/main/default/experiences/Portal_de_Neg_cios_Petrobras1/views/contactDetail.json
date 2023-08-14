@@ -1,0 +1,144 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "147cd785-799d-4cd1-9eb3-b7481f6f1960",
+  "label" : "Contact Detail",
+  "regions" : [ {
+    "id" : "a2ce9273-4a0f-4536-8896-9ba5994533eb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "b7e61bf7-e0a7-432f-908e-faedc0ff7fd1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "none",
+        "tab3Type" : "none",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "f3b60d7b-57ad-4d22-a873-db5eccc7eac3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b10517cd-22ee-4c77-ac8f-b827b9ddc913",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6c7cdaef-0716-4d5a-a385-766fa71de016",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "43f5aca2-9803-45ad-993c-d9fa0aacb090",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0c100c9a-b1d1-49a4-bdde-177716354c8b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "8ad01cc2-f922-40cc-a8c8-26494c5d017e",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "2150dc11-4b2c-4467-86b1-25ef9b0a760e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Locais"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "8ad01cc2-f922-40cc-a8c8-26494c5d017e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:cfDisassociateLocation",
+          "id" : "5f12110c-d524-470c-b45a-657128037533",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2150dc11-4b2c-4467-86b1-25ef9b0a760e",
+        "regionLabel" : "Locais",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "e2e5087a-a0d0-4bb1-b680-1750dea37e5e",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "19e5cef1-e251-444e-9559-e777665a3ae2",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Produtos"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "e2e5087a-a0d0-4bb1-b680-1750dea37e5e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:cfDisassociateProducts",
+          "id" : "383d4376-6b83-4146-bfe8-902b7b1ec288",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "19e5cef1-e251-444e-9559-e777665a3ae2",
+        "regionLabel" : "Produtos",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "04e013b0-0034-4b47-bc7f-85cdb8f59141",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-003"
+}

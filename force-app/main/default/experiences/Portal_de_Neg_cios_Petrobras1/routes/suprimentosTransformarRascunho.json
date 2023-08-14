@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c362aa1b-9faa-4589-ad57-655244e9bb68",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a17528d7-2860-49a8-8cd6-0adc96cb3189",
+  "label" : "Suprimentos Transformar Rascunho",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-transformar-rascunho",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-transformar-rascunho"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a03877c4-2177-4f51-a0fa-b1d892fb3575",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "593c3eb9-4951-4f09-a975-b5884acf0c1e",
+  "label" : "Documento Executivo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-executivo",
+  "type" : "route",
+  "urlPrefix" : "executivo"
+}

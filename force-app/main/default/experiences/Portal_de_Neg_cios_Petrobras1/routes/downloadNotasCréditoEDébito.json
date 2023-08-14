@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "65b76fe4-4a43-427e-b0bc-6fb75bfd10a6",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2e8b3372-75f2-44e9-9a6e-013dc80a767f",
+  "label" : "Download Notas Crédito e Débito",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-notas-debito-credito",
+  "type" : "route",
+  "urlPrefix" : "notas-debito-credito"
+}

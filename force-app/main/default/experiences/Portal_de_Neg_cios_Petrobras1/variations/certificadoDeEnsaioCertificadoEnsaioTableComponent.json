@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "abb07b47-f43e-4bb2-b8f0-dece284a7c87",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "d5c62a79-e30a-4866-8371-be8ce22ce808",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Certificado_De_Ensaio_CertificadoEnsaioTable_Component",
+  "id" : "542018bd-2e9c-4004-829f-ca19d76da672",
+  "type" : "experienceVariation"
+}

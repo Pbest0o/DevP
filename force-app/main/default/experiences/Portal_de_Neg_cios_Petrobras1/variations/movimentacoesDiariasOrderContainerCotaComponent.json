@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c51d02e4-fb78-42db-a638-31b9cd6d9dfe",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "383f85ea-7607-42e4-9855-97e5143715fc",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Movimentacoes_Diarias_orderContainerCota_Component",
+  "id" : "4684aed5-678d-4239-94e9-5e6565ed68f1",
+  "type" : "experienceVariation"
+}

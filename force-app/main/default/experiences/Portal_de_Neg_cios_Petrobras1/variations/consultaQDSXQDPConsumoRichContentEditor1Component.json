@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d25aa246-284a-4037-85e2-34d1ed4831b1",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "58959f15-4f7c-4708-9497-a1a6cfdf3d25",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_QDS_x_QDP_Consumo_Rich_Content_Editor_1_Component",
+  "id" : "63ff6f12-1297-46c6-84f2-6d72493e72da",
+  "type" : "experienceVariation"
+}

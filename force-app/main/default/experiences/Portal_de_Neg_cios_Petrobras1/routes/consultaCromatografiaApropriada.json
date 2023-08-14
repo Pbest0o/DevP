@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8c590f53-85e3-407b-ad92-8f30bfcb4a08",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2955c48d-ca1c-4942-83d3-12e7c15f6218",
+  "label" : "Consulta Cromatografia Apropriada",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-cromatografia-apropriada",
+  "type" : "route",
+  "urlPrefix" : "consulta-cromatografia-apropriada"
+}

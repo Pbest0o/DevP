@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f79e30d2-97de-4976-b743-e5e1206440d2",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "02cca7a1-9e36-4585-b1c4-52301bf1050b",
+  "label" : "Movimentacoes Diarias",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-movimentacoes-diarias",
+  "type" : "route",
+  "urlPrefix" : "movimentacoes-diarias"
+}

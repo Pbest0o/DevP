@@ -1,0 +1,85 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "175a37ef-a4e7-4826-93ac-ea3bc10d02f5",
+  "label" : "Suprimentos Pedido Spot",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "82f693ad-d551-4572-81f2-a9ae27b16615",
+          "columns" : [ {
+            "UUID" : "1d6748ea-3403-4df9-aaed-f9355d23bc62",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "82f693ad-d551-4572-81f2-a9ae27b16615",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p>&nbsp;<a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a><span style=\"color: rgb(0, 133, 66);\"> &gt;&nbsp;</span><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Suprimentos</a><span style=\"color: rgb(0, 133, 66);\">&nbsp;&gt;</span><span style=\"color: rgb(0, 138, 0);\"> </span><u style=\"color: rgb(0, 138, 0); font-size: 12px; background-color: rgb(255, 255, 255);\">Pedido Spot</u></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "88101d61-6f93-439f-bb94-9e7f1199f692",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Suprimentos - Pedido Spot</strong></p><p><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d15e4960-69f9-46e3-941b-11b7c2a39713",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:suprimentosPedidoSpot",
+          "id" : "7c048230-3415-43b0-bd73-af5afc1adf35",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1d6748ea-3403-4df9-aaed-f9355d23bc62",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "25da8026-a5f2-4875-96f9-6e6f7aa07153",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Suprimentos Pedido Spot"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0692fc6b-49cf-497c-87dc-579cde6584af",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "224a0a11-c1d2-4c6d-801f-4462a25dc69d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-pedido-spot"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "44b8191b-7321-4090-96c3-695eeb397003",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "11cad377-c76e-4dd9-b184-7720d0f9a002",
+  "label" : "Registra Rateio",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-registra-rateio",
+  "type" : "route",
+  "urlPrefix" : "registra-rateio"
+}

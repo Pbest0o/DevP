@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d0e6b359-d676-4a5f-b08e-c14db146f0e6",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "680306ca-8eaa-4b35-8460-6cdb74d3a448",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Efetua_Requisio_de_Consumo_Rich_Content_Editor_Component",
+  "id" : "bcfcda3b-7bf5-4e30-875b-92f961ba152b",
+  "type" : "experienceVariation"
+}

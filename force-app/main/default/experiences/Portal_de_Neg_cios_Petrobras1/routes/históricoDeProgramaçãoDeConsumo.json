@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "78c4fc75-2c57-47a5-9e9e-de0218af582e",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "96b712a0-56ee-45b9-b5a7-50b0f74b804b",
+  "label" : "Histórico de Programação de Consumo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-historico-de-programacao-de-consumo",
+  "type" : "route",
+  "urlPrefix" : "historico-de-programacao-de-consumo"
+}

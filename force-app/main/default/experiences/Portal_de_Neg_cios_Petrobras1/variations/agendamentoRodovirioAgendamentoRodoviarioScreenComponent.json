@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "8ee7b2f6-6e52-4f1e-9eb1-414d303cae7d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "da958844-d358-4552-aa73-b483351a86a9",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Agendamento_Rodovirio_AgendamentoRodoviarioScreen_Component",
+  "id" : "e4017e1b-ad9c-4764-bf3c-dd388bda6eed",
+  "type" : "experienceVariation"
+}

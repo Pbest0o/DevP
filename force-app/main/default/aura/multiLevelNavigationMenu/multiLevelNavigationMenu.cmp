@@ -1,0 +1,18 @@
+<aura:component controller="MultiLevelNavigationMenuController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="menuId" type="String" access="public"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <ccnavmenus:navMenu
+        menuId="{!v.menuId}"
+        brandNavigationColorText="rgba(0, 133, 66)"
+        brandNavigationBarBackgroundColor="rgba(241, 243, 245)"
+        brandNavigationBackgroundColor="rgba(250,250,250)"
+        hamburgerMenuMode="off"
+        overflowLabel="Mais"
+        drillDownBackButtonLabel ="Voltar"
+        allLabel="Ir para"
+        menuAlignment="Center"
+    />
+ 	
+</aura:component>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "511294f2-2d84-474e-9981-9f70a52200ef",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "a96d3592-a763-46d4-87ec-ee0e656cb6aa",
+  "label" : "Certificado De Ensaio",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-certificado-de-ensaio",
+  "type" : "route",
+  "urlPrefix" : "certificado-de-ensaio"
+}

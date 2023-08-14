@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "cd5779f4-d86a-4dea-97ae-bbd3dc34254d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "be38fcef-1813-457b-9e30-51eafdc6e648",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Cota_Mes_orderContainerCota_Component",
+  "id" : "71f2f050-7042-471b-adc1-918a1d47c41d",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,85 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6aede7ab-24ca-45a8-9f93-0e1bff33e872",
+  "label" : "Suprimentos Evolucao Cota",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "034b5a17-bd6f-4c15-b178-ef8ebaaa9dac",
+          "columns" : [ {
+            "UUID" : "0e44d468-addf-4bf5-b824-3ce767bf7966",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "034b5a17-bd6f-4c15-b178-ef8ebaaa9dac",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Cota &gt; Evolução de Cota</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7a9bbfa6-13b8-491d-86f2-dff7913ba99e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Evolução de Cota - PETROBRAS</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "34bbdc10-1df8-4348-807d-ceb59c90991b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:cotaEvolucao",
+          "id" : "902ed1b2-6343-43fa-82b9-b641bd19847a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0e44d468-addf-4bf5-b824-3ce767bf7966",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "71b40d59-b467-4a56-bae1-54a7862cff3d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Evolução de Cota"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4e7755ce-fa29-48c6-9fba-358c46b228d1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "07b539ee-4ece-4a12-aa24-27150d3c1b0c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-evolucao-cota"
+}

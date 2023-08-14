@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "821c0e3c-154f-4d55-ab1b-8b03a2db90f7",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "ad63e845-8d26-4991-b5a1-b693d35c66fc",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Registra_Rateio_orderContainer_Component",
+  "id" : "fd9d81ec-eef0-482e-a34d-f34f1cf25b4a",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9f1ea0ab-2bb9-47dc-bc27-395a6a6cd188",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "0559057a-a673-418f-b955-e5266b7bea6e",
+  "label" : "Suprimentos Consulta Alteração Pedidos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-consulta-alteracoes-pedidos",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-consulta-alteracao-pedido"
+}

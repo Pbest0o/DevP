@@ -1,0 +1,57 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "3271161d-4123-43d1-bbf8-91662f27a200",
+  "label" : "Nota de Crédito e Débito Detail",
+  "regions" : [ {
+    "id" : "cdee36c1-e534-4d4a-b072-5e8e087ac490",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "c92aee7a-aa24-4446-9caf-1a3de32ccad4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:cfExternalRecordDetails",
+      "id" : "7e5f9259-ec12-467b-b9cc-afefa63d95bf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4137690-c51c-4e90-a450-dbe103240437",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ec331110-e44b-4a76-9c6a-fe626a5d05ab",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a46cb9b-7ce9-443f-a705-17df6205c4e5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7c0325cd-b62c-4c7b-92df-5eaa0f9857a6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x04"
+}

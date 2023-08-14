@@ -1,0 +1,124 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1c3f3554-6ed2-4b9f-82cb-8bd02f67960e",
+  "label" : "Avisos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "94af3656-5b3f-4464-abc0-f260f1938e25",
+          "columns" : [ {
+            "UUID" : "f56168ad-159b-4885-8e08-7bba5ac00806",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "94af3656-5b3f-4464-abc0-f260f1938e25",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "6b3592cd-9833-4fd5-9891-8c7f87c0a369",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "b88bad5f-c32a-4133-9e68-c3304ad02b4e",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Avisos Lidos"
+              }, {
+                "UUID" : "286e1d09-839c-4f27-b1f6-52cd8397fafb",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Avisos Não Lidos"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "6b3592cd-9833-4fd5-9891-8c7f87c0a369",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "AberturasTCP",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "AberturaAoMercadoTransporteMaritimoAF__c",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "2e026bc2-4b08-4201-b96a-78f7caff6cc6",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "b88bad5f-c32a-4133-9e68-c3304ad02b4e",
+            "regionLabel" : "Avisos Lidos",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "286e1d09-839c-4f27-b1f6-52cd8397fafb",
+            "regionLabel" : "Avisos Não Lidos",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f56168ad-159b-4885-8e08-7bba5ac00806",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bab9f572-3b53-4116-826e-1660ec8727e5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Avisos"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c97f6563-6ed2-4d05-9c7c-b92ad144ec94",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "439c1a81-3612-4d7e-a745-d54245b44b62",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-avisos"
+}

@@ -1,0 +1,74 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "94ab3162-ea31-4b78-9feb-830392d0243b",
+  "label" : "MDF and Coop",
+  "regions" : [ {
+    "id" : "51d0d23b-d1b4-4d85-9711-d7af066a037a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "             <p>                 <span style=\"font-size: 20px;\">Request and Manage your Market Developments Funds.</span>             </p>        "
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "98ff80ba-d93e-4aad-811a-bd0c5e3cd569",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "numberOfTopicsToDisplay" : 10,
+        "searchHint" : "Type a topic name and press Enter.",
+        "title" : "Topics"
+      },
+      "componentName" : "forceCommunity:topicsOnRecordWrapper",
+      "id" : "3a9f7bb0-5dfb-4412-91e0-b78a5583ee45",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "numberOfTopicsToDisplay" : 10,
+        "searchHint" : "Type a topic name and press Enter.",
+        "title" : "Topics"
+      },
+      "componentName" : "forceCommunity:topicsOnRecordWrapper",
+      "id" : "238fdb7a-1d78-474e-8df3-f9dcfcc126ef",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f5489102-9a79-4293-950c-86968b887a68",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfTopicsToDisplay" : 10,
+        "searchHint" : "Type a topic name and press Enter.",
+        "title" : "Topics"
+      },
+      "componentName" : "forceCommunity:topicsOnRecordWrapper",
+      "id" : "c1348fe3-39cd-4412-868d-7254761a16ce",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "forceCommunity:topicCatalog",
+      "id" : "ebc91886-acaa-4c90-a867-efbcfc224b86",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "15c0a513-8143-4a41-94ea-aee6491b7388",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "mdf"
+}

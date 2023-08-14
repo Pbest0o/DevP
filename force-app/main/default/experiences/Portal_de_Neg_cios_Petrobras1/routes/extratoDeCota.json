@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "daa156fa-27e6-41a2-8061-d1bfc62b1e05",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "88e8737b-b86d-45b5-bd50-d85a57b5fc9d",
+  "label" : "Extrato de Cota",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-extrato-de-cota",
+  "type" : "route",
+  "urlPrefix" : "extrato-de-cota"
+}

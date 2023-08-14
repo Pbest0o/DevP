@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d74fbf2a-3c14-418b-9599-3e7840d37c3c",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "24c47352-820d-48f3-a64d-7ab6f8e94e1e",
+  "label" : "visualizarcookies",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-visualizarcookies",
+  "type" : "route",
+  "urlPrefix" : "visualizarcookies"
+}

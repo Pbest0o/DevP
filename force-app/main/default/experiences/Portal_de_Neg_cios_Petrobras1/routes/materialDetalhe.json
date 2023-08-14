@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "895504f9-9bc8-4678-8c17-6102469953ca",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "5cf34aa4-3c39-4131-be3f-f70a94c41b94",
+  "label" : "Material Detalhe",
+  "objectApiName" : "CC_MATERIAL__x",
+  "routeType" : "detail-x02",
+  "type" : "route",
+  "urlPrefix" : "cc-material"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "44ce088c-99e5-449c-8f73-8693e1bdbe0c",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "f7b99d40-3678-48db-8a63-b65cab72701c",
+  "label" : "Suprimentos Cota Dia",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-cota-dia",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-cota-dia"
+}

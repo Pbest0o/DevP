@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d46f93ef-3d8c-45a4-a263-e56a267b6c0a",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "a4277016-a3ed-47dc-9c86-05f01498aef4",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Saldo_Cota_Rich_Content_Editor_Component",
+  "id" : "583d5170-fa5a-4355-bae5-6caa4318abac",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b4c9d79b-d7b1-4ff1-828e-a80890741207",
+  "label" : "Quantidade Mínima por Região",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p>I<a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">nício</a><span style=\"color: rgb(0, 133, 66);\"> &gt;&nbsp;</span><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Suprimentos</a><span style=\"color: rgb(0, 133, 66);\">&nbsp;&gt; </span><u style=\"color: rgb(166, 166, 166); font-size: 12px; background-color: rgb(255, 255, 255);\">Quantidade de Referência &gt; Quantidade Mínima por Região </u></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a98ffe05-9881-48ce-baa4-e12b950fcb49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2bc24a18-f0de-4637-a9fd-eede3f61db98",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Quantidade Mínima por Região </strong></p><p><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8e79b9cd-0553-4c7b-8398-1e7e163e580f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9c0c5559-9c7b-4d8d-814a-dcd697a80922",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosQuantidadeMinimaRegiao",
+      "id" : "bfe04f23-fc47-404f-a63c-6f4ffbdf267b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fe6802b-9f4b-492d-9878-c7f0bb9c8171",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Suprimentos Cadastro Qtd. de Referência"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cd7bea3b-3106-4591-9933-e244958020ba",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8648a565-3753-4dca-acc7-4acdc5b486b4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-quantidade-mnima-por-regio"
+}

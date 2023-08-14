@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6aede7ab-24ca-45a8-9f93-0e1bff33e872",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "f0f231f5-42e4-4b3a-8bc4-5266814262b7",
+  "label" : "Suprimentos Evolucao Cota",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-evolucao-cota",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-evolucao-cota"
+}

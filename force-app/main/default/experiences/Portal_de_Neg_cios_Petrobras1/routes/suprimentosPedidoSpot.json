@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "175a37ef-a4e7-4826-93ac-ea3bc10d02f5",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "c213ca9f-c274-467b-9ad3-b2851fc8bf29",
+  "label" : "Suprimentos Pedido Spot",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-pedido-spot",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-pedido-spot"
+}

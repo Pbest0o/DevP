@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "6a1e1f17-40c6-478f-9346-645ac034e57c",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "564f11b6-4f37-4034-912c-f4cae7be12cf",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Suprimentos_Cota_Dia_orderContainerCota_Component",
+  "id" : "e9fe3c34-6316-4e05-8462-2d4c7405892e",
+  "type" : "experienceVariation"
+}

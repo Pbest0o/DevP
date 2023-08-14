@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Periodo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISNULL( Documento_Executivo__r.Inicio_Vigencia__c )) &amp;&amp;  NOT(ISNULL( Documento_Executivo__r.Fim_Vigencia__c )), &apos;De &apos; + TEXT(Documento_Executivo__r.Inicio_Vigencia__c) + &apos; até &apos; + TEXT(Documento_Executivo__r.Fim_Vigencia__c), IF(NOT(ISNULL(Documento_Executivo__r.Inicio_Vigencia__c)) &amp;&amp; ISNULL(Documento_Executivo__r.Fim_Vigencia__c),&apos;A partir de &apos; + TEXT(Documento_Executivo__r.Inicio_Vigencia__c),&apos;&apos;))</formula>
+    <label>Periodo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

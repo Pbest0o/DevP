@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "3dcf685f-3ef1-4c55-af6f-8fd0ee377cfb",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "123f34ed-93f2-4289-a87a-3bc3fa94757f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Histrico_de_Programao_de_Consumo_Rich_Content_Editor_Component",
+  "id" : "44bdb073-f1fe-41ed-ba14-03d793ef9c33",
+  "type" : "experienceVariation"
+}

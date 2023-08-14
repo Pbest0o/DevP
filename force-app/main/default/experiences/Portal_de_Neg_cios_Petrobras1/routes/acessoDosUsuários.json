@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "212d553a-aee0-4c54-9312-1a40db0191c6",
+  "label" : "Acesso dos Usuários",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-acesso-dos-usurios",
+  "type" : "route",
+  "urlPrefix" : "acesso-dos-usurios"
+}

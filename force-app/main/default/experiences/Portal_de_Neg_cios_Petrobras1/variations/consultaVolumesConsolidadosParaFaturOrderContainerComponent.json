@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c2118255-2e25-4194-a72b-e4cc94fcff17",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "230cd659-9a5c-4278-83d2-96db5ad70a1f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Volumes_Consolidados_para_Fatur_orderContainer_Component",
+  "id" : "a2e3167d-1a60-4c58-bf88-29f9a1a09d8a",
+  "type" : "experienceVariation"
+}

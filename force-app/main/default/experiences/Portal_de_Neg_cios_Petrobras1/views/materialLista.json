@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "186f66c9-f8ec-481d-9a26-ac4e00b88de6",
+  "label" : "Material Lista",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início</a><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\"> </span>&gt;&nbsp;<span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Cadastros </span>&gt;&nbsp;Produtos</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "bd9a1424-15ac-433d-b2bd-3685f2887f2d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Produtos</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Visualize os produtos habilitados para o seu usuário.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fd8e15de-429b-4580-a722-662906b6072e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d616e921-5fb3-4186-bebb-8cf4c7e07fcb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "32a07ebd-5e1e-4f43-9715-af680ac1f745",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b26a6711-4de2-4917-9b7f-f31cfd50064e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "bd85d916-cf9c-4bda-848f-897a2823a27d",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x02"
+}

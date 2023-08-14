@@ -1,0 +1,107 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c43a6697-8919-4625-b9af-1dac4616f941",
+  "label" : "Consulta de Cotações",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "7b2ccbcf-0cf7-422e-81fb-379924ccb0f4",
+          "columns" : [ {
+            "UUID" : "3addacae-ba79-4277-8d91-8166ed70fe80",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7b2ccbcf-0cf7-422e-81fb-379924ccb0f4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Preço Fixo de QAV &gt; Consulta Cotações</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6c219860-f870-442c-9a07-990be1a58e9f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Cotações</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "66d03bf0-5a30-4b07-89ac-a3628c0f05d4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Consultar Cotações",
+            "renderCabecalho" : true,
+            "renderClassificacao" : false,
+            "renderListaProdutos" : false,
+            "renderListaStatus" : true,
+            "renderListalocais" : true,
+            "renderLocal" : false,
+            "renderModalidade" : false,
+            "renderPeriodo" : false,
+            "renderProduto" : false,
+            "renderVisualizacao" : false
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "234f749d-18f3-43ed-933d-bf4d5369e8ef",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0a557c61-d1c5-4dd1-b91a-9df8a78c728b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3addacae-ba79-4277-8d91-8166ed70fe80",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b9596596-467c-48ab-9a08-525d04915cdc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta de Cotações"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b371ef9a-8f20-424a-ab02-7dc4f44cbe51",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d04f22ee-814a-46b8-ad46-34def7bcb8fd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-de-cotacoes"
+}

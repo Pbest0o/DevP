@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "dbccf685-5013-4651-9be5-6bd9988539ea",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "d61e12b1-9f3d-45ab-908d-adfc88136dba",
+  "label" : "Especificação de Produtos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-especificao-de-produtos",
+  "type" : "route",
+  "urlPrefix" : "especificao-de-produtos"
+}

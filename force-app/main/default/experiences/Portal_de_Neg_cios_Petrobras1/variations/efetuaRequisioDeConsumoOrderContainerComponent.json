@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "463c50f9-0189-4a19-8677-6b73f778741e",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "ca430860-2fe3-4729-9a4f-8b6712a4f50c",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Efetua_Requisio_de_Consumo_orderContainer_Component",
+  "id" : "d60ac601-5d11-4ea6-8648-1cd4ee5fa3f0",
+  "type" : "experienceVariation"
+}

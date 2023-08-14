@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0f68b382-45fb-4e38-80e0-e997653057d1",
+  "label" : "Nota de Crédito e Débito List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">&nbsp;</span>&gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Financeiro&nbsp;</span>&gt; Notas de Crédito e Notas de Débito</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "87c35ce4-7074-49b3-925f-a78ac86b6e3f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255); font-size: 28px;\">Notas de Crédito e Notas de Débito</strong></h1><h1><strong style=\"color: rgb(255, 194, 102); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Escolha uma das opções de visualização da lista, visualize os detalhes dos registros, crie novos filtros personalizados, ordene conforme sua necessidade através do cabeçalho das colunas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d54a2c9a-b774-4f94-9a04-c32ecbae872c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb8b19ad-dbe5-446a-81a2-d7b734ab9b37",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "598713c9-3bff-44c7-8707-1af9054c515b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad7d3fee-68d8-4d81-91e7-c2f8f6d62e88",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "04666625-d226-42d1-9722-642170bded50",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-x04"
+}

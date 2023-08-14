@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6f59186f-6d49-41db-9a80-a20f03beedae",
+  "label" : "Motorista Detalhe",
+  "regions" : [ {
+    "id" : "c03fa3e7-b00d-4c77-a5f8-bca46d8b3ce7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "abf7cfa8-ba11-4dcc-9f78-22a4f7c78401",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "fcabcf10-aaa8-48af-b703-4eac6f31b535",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c1f9a56a-200f-4207-bf2d-10e9c06f829a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "21ef605e-4012-4f2b-aab0-a20364ebe0e5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d3d25724-5257-4bce-8496-0bc8f2d55298",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "556c46c9-8bc1-4b51-ada3-cbd557b75006",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x0S"
+}

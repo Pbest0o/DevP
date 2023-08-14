@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d2f448f2-8718-4bc4-953c-3a84762e6a83",
+  "label" : "Volume Solicitado x Volume Retirado",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Cota &gt; Volume Solicitado x Volume Retirado</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1942064f-9b06-4617-b250-47daf215c584",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "07a5f581-89d9-4adc-8133-aeb7fb7bc182",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Volume Solicitado x Volume Retirado - PETROBRAS</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>Com base nos Período, Produto e Locais, acesse gráficos em formato Dashboard</p><p>* Informações disponíveis para um período máximo de 5 anos</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "e70cc667-8bd1-4b78-9e76-056891a21573",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5bb64c1e-f374-4a1a-a87c-17240b186208",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:duto_Volume_Solicitado_Retirada",
+      "id" : "af16c915-e8b9-4de9-99cd-2a7d9b305397",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "459cf4d5-ea80-44ea-8c0a-1f012179efcb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Volume Solicitado x Volume Retirado"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "62cabf52-d202-4033-bf1f-93d0931499b3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4306a0e-1278-468c-b02a-bce23d316460",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-volume-solicitado-x-volume-retirado"
+}

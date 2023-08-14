@@ -1,0 +1,10 @@
+<template>
+	<template if:true={showComponent}>
+		<a href="../s/executivo" >
+			<div class="lwc-price-alerts">
+				<lightning-icon icon-name="utility:alert" size= "small" alternative-text="Alert" title="Alert" class='black-utility-icon'></lightning-icon> &nbsp; 
+				<span style="color: black;">Foi publicada recentemente uma atualização de tabela de preços: {namesJoinedByComma}! Clique e saiba mais.</span>
+			</div>
+		</a>
+	</template>
+</template>

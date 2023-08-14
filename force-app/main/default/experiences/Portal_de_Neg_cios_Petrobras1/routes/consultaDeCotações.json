@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c43a6697-8919-4625-b9af-1dac4616f941",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2c47d6a9-c5ad-4e89-a977-089c7daa8859",
+  "label" : "Consulta de Cotações",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-de-cotacoes",
+  "type" : "route",
+  "urlPrefix" : "consulta-de-cotacoes"
+}

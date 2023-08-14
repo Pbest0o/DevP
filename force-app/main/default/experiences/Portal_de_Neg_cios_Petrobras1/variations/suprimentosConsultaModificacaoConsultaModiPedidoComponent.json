@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "72d5b615-6de5-4c71-be0c-3f4cfc34b881",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "528236ba-914a-4eb0-a56e-58026ba2abd5",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Suprimentos_Consulta_Modificacao_consultaModiPedido_Component",
+  "id" : "9e15c649-37da-4f02-a9a9-0d0269455b69",
+  "type" : "experienceVariation"
+}

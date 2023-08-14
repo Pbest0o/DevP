@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "01e1c9f4-79e0-4a15-b534-8e5971405bb1",
+  "label" : "Suprimentos Transf Rasc Incorp Saldo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Transformação de Rascunho em Incorporação de Saldo</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c1724a8a-d4cc-4d39-bff1-0352cef107fa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d8d2b789-d16d-4c3a-8d1c-296fd984c04d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Transformação de Rascunho em&nbsp;Incorporação de Saldo&nbsp;&nbsp;- PETROBRAS</strong></h1><h1><br></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "796c3804-0aa4-4bbf-83b4-d66b5b212e5d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b40f3812-ece8-4e98-995f-d6ec82294a05",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosTransfRascunhoIncorpSaldo",
+      "id" : "993acf04-64f7-44f4-8f31-1cc34c63f7a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0dc9ead5-744e-4dca-866a-154393dab19d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Transf Rasc Incorp Saldo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b790e5b8-a020-4163-af36-7a301c462337",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0ac08387-465a-4bfa-8b7a-43ce99175286",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-transf-rasc-incorp-saldo"
+}

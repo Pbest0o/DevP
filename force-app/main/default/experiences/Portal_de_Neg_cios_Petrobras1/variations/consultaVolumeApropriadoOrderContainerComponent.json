@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "590a7822-3762-4a5f-a5d2-13c8443fcd5c",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "df9ca69a-b16e-46af-b0ee-9dd28ec337e6",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Volume_Apropriado_orderContainer_Component",
+  "id" : "5b17d4a2-62f7-4c08-bacf-68e7781fdf84",
+  "type" : "experienceVariation"
+}

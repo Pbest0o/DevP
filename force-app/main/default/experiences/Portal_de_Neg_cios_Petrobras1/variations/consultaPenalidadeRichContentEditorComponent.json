@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "b074a282-1bde-4aed-9202-7fbefca87bda",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "fed010af-8626-432c-8ec3-12f7c4a40518",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_Penalidade_Rich_Content_Editor_Component",
+  "id" : "98755a21-763d-48d1-9b87-0ce02c08abe7",
+  "type" : "experienceVariation"
+}

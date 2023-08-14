@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "741ce5d9-5360-4c9c-9caa-863a27aa60dd",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "6f77b97b-8eb2-430c-aaad-23c3447b8ef0",
+  "label" : "Nota Fiscal Detail",
+  "objectApiName" : "CC_NOTA_FISCAL__x",
+  "routeType" : "detail-x05",
+  "type" : "route",
+  "urlPrefix" : "cc-nota-fiscal"
+}

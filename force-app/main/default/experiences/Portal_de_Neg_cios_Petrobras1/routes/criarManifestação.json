@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3cc40d91-7e6b-46e8-8ff2-1c979a325c07",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "0b3ea4b2-03f3-4f28-ac5c-08ae8da757be",
+  "label" : "Criar Manifestação",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-criar-manifestacao",
+  "type" : "route",
+  "urlPrefix" : "criar-manifestacao"
+}

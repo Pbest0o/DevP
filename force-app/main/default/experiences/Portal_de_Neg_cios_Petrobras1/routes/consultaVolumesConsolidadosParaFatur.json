@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7e7a3ad7-795d-4318-ae02-34e02810ba53",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "be46a476-c0fc-41c8-9839-5a3bc8f530f1",
+  "label" : "Consulta Volumes Consolidados para Fatur",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volumes-consolidados-para-faturamento",
+  "type" : "route",
+  "urlPrefix" : "volumes-consolidados-para-faturamento"
+}

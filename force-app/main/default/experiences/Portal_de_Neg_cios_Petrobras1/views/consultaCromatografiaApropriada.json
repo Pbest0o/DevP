@@ -1,0 +1,118 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8c590f53-85e3-407b-ad92-8f30bfcb4a08",
+  "label" : "Consulta Cromatografia Apropriada",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "c0164aba-b793-48e7-b7a7-27ee8b056bb9",
+          "columns" : [ {
+            "UUID" : "b16cc536-559d-4801-ad03-c99c14ad3423",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 195
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c0164aba-b793-48e7-b7a7-27ee8b056bb9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/portalcliente/s/consulta-cromatografia-apropriada\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; Consulta Cromatografia Apropriada</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "be2706d6-374f-450f-9aea-c1f9c042103a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Cromatografia Apropriada</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "609c5825-37d0-42ad-9539-112453861b7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma requisição de consumo de acordo com a data da amostragem e ponto de entrega.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0c732980-acb8-4ed1-ae23-d40445fd925b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : false,
+            "renderDataAmostragem" : true,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : true,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : false,
+            "renderRequestType" : false,
+            "renderRequisicao" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "f109cc12-6dac-4482-994d-24a83617b430",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129); --darkreader-inline-color:#989082;\" data-darkreader-inline-color=\"\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "53d5c968-97d1-4b76-8572-8b4f6bfb5cbd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b16cc536-559d-4801-ad03-c99c14ad3423",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "687a4114-a05e-4793-b5f1-750f49dc3ac7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta Cromatografia Apropriada"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "268a30c6-a123-487e-ac48-d4a244173d19",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8faf4380-5c68-4f36-ac1a-89c3406327b5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-cromatografia-apropriada"
+}

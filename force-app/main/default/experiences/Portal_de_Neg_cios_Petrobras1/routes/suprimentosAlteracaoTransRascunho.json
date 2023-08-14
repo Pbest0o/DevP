@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9576867c-7a7d-4739-90d8-fe09b6603ac0",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "84494b19-e9c7-4754-aae4-1e3cd4a62179",
+  "label" : "Suprimentos Alteracao Trans Rascunho",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-alteracao-trans-rascunho",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-alteracao-trans-rascunho"
+}

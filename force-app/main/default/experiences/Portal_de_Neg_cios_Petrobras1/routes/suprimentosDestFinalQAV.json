@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2e266946-eaf3-421e-82f3-34d10018d8ca",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "2f3bb2bc-3732-4724-81e4-ea7cf0dd1b29",
+  "label" : "Suprimentos Dest Final QAV",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-dest-final-qav",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-dest-final-qav"
+}

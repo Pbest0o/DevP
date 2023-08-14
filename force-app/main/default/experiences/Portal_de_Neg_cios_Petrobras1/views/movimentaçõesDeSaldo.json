@@ -1,0 +1,64 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9181be95-295d-4c1c-b7b8-3e17f28bd531",
+  "label" : "Movimentações de Saldo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\"> </span>&gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Financeiro </span>&gt; Movimentações de Saldo</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "da451a9e-009b-4fe3-93c2-1b97f9fd1560",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(0, 138, 0); font-size: 28px;\">Movimentações de Saldo</strong></h1><h1><strong style=\"color: rgb(255, 194, 102); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px;\">Todas os Saldos das suas movimentações.</span></p><p><span style=\"font-size: 12px;\">Aqui você acompanha suas finanças com uma visão 360º.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "279f798a-f70c-4a6b-a68d-8a9ac9edaa89",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:cfReviewBalanceMovementsCommunity",
+      "id" : "6a971164-6cdb-4447-ac4d-8b589be874b7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "87479538-2f6e-4e88-ab60-1b4f52349b5f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e63ba5b4-7183-4edd-810d-d63ddcdbef69",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "82580664-48bc-446a-aeda-11d8bd60464b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Movimentações de Saldo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "88adc0e2-dd48-4f31-b0ea-8f6aaa339d9a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c0c85d4c-ed19-4f32-99e8-c8068bf2d61e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-movimentaes-de-saldo"
+}

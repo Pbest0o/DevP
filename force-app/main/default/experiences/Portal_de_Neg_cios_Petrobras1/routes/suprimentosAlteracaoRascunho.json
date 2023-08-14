@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "09804b2e-6aa2-4521-a5e5-09c91fcf9964",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "879b6f07-df3d-4c47-8741-89c2c758807d",
+  "label" : "Suprimentos Alteracao Rascunho",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-alteracao-rascunho",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-alteracao-rascunho"
+}

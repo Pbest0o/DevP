@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8c315932-71ea-4823-b63a-6a632db7279b",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "d80b9f12-51a6-4ecb-a5f0-338a6901e358",
+  "label" : "Consultar Quantidade Referencia",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consulta-quantidade-referencia",
+  "type" : "route",
+  "urlPrefix" : "consultar-quantidade-referencia"
+}

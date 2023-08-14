@@ -1,0 +1,58 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "06d71b6f-ecff-4d85-bada-d587eee985ed",
+  "label" : "Politica de Privacidade",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p>&nbsp;<a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início</a><span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\"> </span>&gt; <span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Cadastros </span>&gt; Política de Privacidade</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1b71218e-7198-43b1-8ea4-0bced0b59700",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "164ea23d-b26e-4cdb-8945-9075691adf1d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><br></p><h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Política de Privacidade - PETROBRAS</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><strong style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 97, 0);\">Privacidade de nossos visitantes</strong></p><p><br></p><p><span style=\"font-size: 12px; color: rgb(136, 136, 136); background-color: rgb(255, 255, 255);\">A PETROBRAS respeita a privacidade das informações pessoais dos visitantes de seu website, sejam eles pessoas fisicas ou jurídicas e tem como política não vender, distribuir ou fornecer essas informações a terceiros para fins mercadológicos ou qualquer outro fim não aprovado por seus proprietários. Quando você visita nosso website, nossos servidores automaticamente armazenam informações que são utilizadas para fins estatísticos e nos apoiam na administração do próprio website. Se durante sua visita a nosso website você preencher um pedido de compra, formulário ou ainda nos fornecer qualquer outra informação de caráter pessoal, elas serão usadas com o propósito único de provê-lo com produtos ou serviços solicitados por você, para anunciar outros produtos ou serviços da PETROBRAS que julgamos poderem ser de seu interesse ou ainda para nos comunicarmos com você.&nbsp;</span></p><p><br></p><p><strong style=\"color: rgb(0, 97, 0); font-size: 16px;\">Links de/para outras empresas</strong></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(136, 136, 136); font-size: 12px;\">Existem websites que não fazem parte do Sistema PETROBRAS que apontam para nosso website. Da mesma forma, para conveniência de nossos visitantes, nosso website tem links para websites que não fazem parte do Sistema PETROBRAS. A PETROBRAS não se responsabiliza nem pelo conteúdo nem pelas políticas / práticas de privacidade dos sites que apontam para o nosso website e daqueles para os quais apontamos.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 97, 0);\">Conteúdo do Site</strong></p><p><br></p><p><span style=\"color: rgb(136, 136, 136); background-color: rgb(255, 255, 255); font-size: 12px;\">A PETROBRAS se esforçará para manter as informações e materiais contidos neste website tão precisos, atualizados e completos quanto possível. No entanto, a PETROBRAS não se responsabilizará por eventuais erros, imprecisões ou omissões nos materiais contidos neste website.&nbsp;</span></p><p><span style=\"color: rgb(136, 136, 136); background-color: rgb(255, 255, 255); font-size: 12px;\">A PETROBRAS se reserva o direito de alterar tanto as informações contidas neste website quanto este Termo a qualquer momento que julgue conveniente.</span></p><p><br></p><p><strong style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 97, 0);\">Utilização do website e de seus links</strong></p><p><br></p><p><span style=\"color: rgb(136, 136, 136); background-color: rgb(255, 255, 255); font-size: 12px;\">Em nenhuma hipótese será a PETROBRAS responsável pelo uso de seu website ou de acesso a links nele indicados, bem como em atos praticados por usuário que tenham por base informações obtidas naquele website e links.&nbsp;</span></p><p><span style=\"color: rgb(136, 136, 136); background-color: rgb(255, 255, 255); font-size: 12px;\">Só existirá responsabilidade da PETROBRAS nos casos de e-commerce, nos termos do pertinente contrato e legislação a ele aplicável.</span></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 97, 0); font-size: 16px;\">Aviso aos atuais investidores e investidores em potencial</strong></p><p><br></p><p><span style=\"color: rgb(136, 136, 136); background-color: rgb(255, 255, 255); font-size: 12px;\">As informações sobre o Sistema PETROBRAS contidas neste website de forma alguma constituem um convite a investidores e tampouco se propõem a servir de base para decisões de investimentos financeiros, sejam eles feitos por pessoas físicas e/ou jurídicas.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "13e171fa-5294-48f1-b75b-29915cd3c945",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ab331045-dddf-4fce-aa9c-4533ffc432ea",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "14066f5f-d052-476b-866d-5e4e9d995955",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Politica de Privacidade"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9391f71c-c678-4112-a2b2-01de29e41616",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f38b7ac7-9d59-4dcd-8fb9-8e515d4d1516",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-politica-de-privacidade"
+}

@@ -1,0 +1,118 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7eb8b02c-8404-4e46-a043-357f6694aa48",
+  "label" : "Consulta Volume Apropriado",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "84c99e01-fe53-46ab-9c91-c901037c2c99",
+          "columns" : [ {
+            "UUID" : "42e6a7c6-6f40-4327-9340-9b54262dd605",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "84c99e01-fe53-46ab-9c91-c901037c2c99",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"/portalcliente/s/consulta-volume-apropriado\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Operação</a> &gt; Consulta Volume Apropriado</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b3f5e7c2-9f42-44ea-bcdf-77b945c82b90",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Consulta Volume Apropriado</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1fc34006-46d3-4af5-ab4d-bbe9fc4634f8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Realize uma consulta de volume apropriado de acordo com o mês/ano da requisição e </span></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">o ponto de entrega.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5b5c8bc5-7bec-44dd-b8b1-2aeba269cfc0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "renderClient" : true,
+            "renderContract" : false,
+            "renderContractGroup" : false,
+            "renderDataAmostragem" : false,
+            "renderPeriodoFaturamento" : false,
+            "renderPontoEntrega" : true,
+            "renderRegiao" : false,
+            "renderRequestDate" : false,
+            "renderRequestMonthAndYear" : true,
+            "renderRequestType" : false,
+            "renderRequisicao" : false,
+            "renderScheduleDate" : false,
+            "renderTipoVisualizacao" : false
+          },
+          "componentName" : "c:orderContainer",
+          "id" : "df9ca69a-b16e-46af-b0ee-9dd28ec337e6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4828afa6-aead-451e-a06e-59138655b046",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "42e6a7c6-6f40-4327-9340-9b54262dd605",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4dce1f7b-6632-4572-86e8-1bf1452e14da",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Consulta Volume Apropriado"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "48d46176-941e-49b4-920e-6ef2f5eec3eb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "05a1b07a-d4ff-42b9-93c6-7b174a6884d1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consulta-volume-apropriado"
+}

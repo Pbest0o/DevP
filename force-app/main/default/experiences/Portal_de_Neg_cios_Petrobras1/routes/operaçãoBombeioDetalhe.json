@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6bd413c3-7c01-409d-b644-a19db42c0180",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "51aeae54-6781-4def-8837-8871a4b066fb",
+  "label" : "Operação Bombeio Detalhe",
+  "objectApiName" : "CC_OPERACAO_BOMBEIO__x",
+  "routeType" : "detail-x0y",
+  "type" : "route",
+  "urlPrefix" : "cc-operacao-bombeio"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "dbe02a5d-0514-47a7-b429-b0406485b794",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "d3c8a984-f843-428c-9613-7d47cd547577",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Consulta_QDS_x_QDP_Consumo_orderContainer_Component",
+  "id" : "ec3bcd73-f1d2-4bb3-9143-4a0da304eae2",
+  "type" : "experienceVariation"
+}

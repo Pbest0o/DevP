@@ -1,0 +1,39 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5314ab5f-a471-446e-9b1a-5d1922b12371",
+  "label" : "Boleto Related List",
+  "regions" : [ {
+    "id" : "b55ecb86-72fa-412c-9142-e553e1b49e13",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "c73afee1-c9ab-40fc-85e6-2026c3d4f720",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2098fd2c-c4cc-4788-a801-6551fc64236a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3e5dccb9-2e9f-4729-8d95-bf3bfed2c760",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-x00"
+}

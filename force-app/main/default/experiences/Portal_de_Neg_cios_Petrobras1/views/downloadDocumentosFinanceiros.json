@@ -1,0 +1,86 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a515ab53-6c36-4eb6-afd5-db88c3bebb4c",
+  "label" : "Download Documentos Financeiros",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "96c8df40-1586-4ad3-917f-afba7a2ede59",
+          "columns" : [ {
+            "UUID" : "44601e8a-ad77-4d49-b2f1-1e67e17a2451",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "96c8df40-1586-4ad3-917f-afba7a2ede59",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Início</a><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\"> </span>&gt; <span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 138, 0);\">Financeiro </span>&gt; Download Documentos Financeiros</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "78811b46-873c-4c38-8cd0-6a65ebc96237",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Download Documentos Financeiros</strong></h1><h1><strong style=\"color: rgb(255, 194, 102); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Faça aqui o download em lote de seus Documentos Financeiros.</span></p><p><span style=\"font-size: 12px;\">Para cada item deste menu selecionado, sera aberta uma nova guia com os registros específicos para download.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5985358d-8d09-4261-8ac7-05eef26d136c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:redirectNotasFiscais",
+          "id" : "c5948f6c-eb53-4cc4-bfe1-ce2af11504ef",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "44601e8a-ad77-4d49-b2f1-1e67e17a2451",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dc308667-0560-4200-b74d-4f4ab28c069a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Download Documentos Financeiros"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e7549502-850f-4466-9c00-df62786296a9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70824380-926c-44a6-8eaa-3780a1e813af",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-download-documentos-financeiros"
+}

@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "c98badfd-b7ff-4a27-86be-28a636a51bdb",
+  "headMarkup" : "<script src=\"/resource/1683063944000/cookiecon__cookieConsent\"></script>\n<script src=\"/resource/1683063944000/cookiecon__clientFingerprint/clientFingerprint/client.min.js\"></script>",
+  "id" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "PRM Community Template",
+  "type" : "appPage"
+}

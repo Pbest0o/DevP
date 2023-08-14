@@ -1,0 +1,160 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "dataProviders" : [ ],
+  "id" : "75321e25-0316-49c7-a365-973496433769",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"homepage-banner slds-grid slds-grid_align-end slds-grid_vertical-align-center\" style=\"height:210px; background-image: url('/sfsites/c/resource/CanalClienteBannerHome'); background-repeat: no-repeat; background-size: auto 100%;\">\n  <div class=\"slds-col slds-size_1-of-2 slds-medium-size_1-of-3 slds-large-size_1-of-4\" style=\"margin-right:16px; padding: 16px;\">\n\t<img src=\"/sfsites/c/resource/CanalClienteBannerHomeTagline\" alt=\"Tagline\">\n  </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "59a4b254-29f6-4440-8ea3-3a25e6baf297",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:priceAlerts",
+      "id" : "774aa9c1-946b-428a-97d3-4c765e6f4692",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"container\" style=\"justify-content: center; margin:10px 0;\">\n    <div class=\"card\">\n      <a href=\"../s/case/Case/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n       \n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n    \t\t\t<span class=\"slds-icon_container slds-icon-custom-account\" title=\"Account\"></span>\n                <img class=\"icon_case\" src=\"/sfsites/c/resource/green_chat_circle_text_fill\" alt=\"Manifestações Icon\" />\n              <span style=\"font-size: 18px; margin-top: 6px; margin-left:6px;\">Manifestações</span>\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\" >Visualize suas manifestações ou abra uma nova\n        </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cc-agendamento/CC_AGENDAMENTO__x/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n          \t<img src=\"/sfsites/c/resource/green_truck_fill\" alt=\"Agendamento Rodoviário Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Agendamento\n\t\t\t <br>\n\t\t\t Rodoviário\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus agendamentos rodoviários\n        </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cc-acompanhamento-bombeio/CC_ACOMPANHAMENTO_BOMBEIO__x/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n         <img  src=\"/sfsites/c/resource/green_database_fill\" alt=\"Agendamento Dutoviário Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Agendamento\n\t\t\t <br>\n\t\t\t Dutoviário\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus agendamentos dutoviários\n    </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cota-mes\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img src=\"/sfsites/c/resource/green_chart_pie_slice_fill\" alt=\"Cota Mensal Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n                <span>Cota Mensal</span>\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte suas cotas mensais\n          </div>\n    </div>\n    </a>\n      </div>\n      <div class=\"card\">\n        <a href=\"../s/cc-cobranca/CC_COBRANCA__x/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/green_currency_circle_dollar_fill\" alt=\"Títulos em Cobrança Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              Títulos em\n\t\t\t <br>\n\t\t\t Cobrança\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus títulos em cobrança\n          </div>\n    </div>\n    </a>\n      </div>\n\t  \t<div class=\"card\">\n            <a href=\"../s/cc-nota-fiscal/CC_NOTA_FISCAL__x/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/green_receipt_fill\" alt=\"Notas Fiscais Eletrônicas Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              Notas Fiscais\n\t\t\t <br>\n\t\t\t Eletrônicas\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Visualize suas notas fiscais eletrônicas\n          </div>\n    </div>\n    </a>\n      </div>\n  </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "6648bb24-0e58-4c87-b14e-cbe59febfbdd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"container\" style=\"justify-content: center; margin:10px 0;\">\n    <div class=\"card\">\n      <a href=\"../s/case/Case/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n       \n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n    \t\t\t<span class=\"slds-icon_container slds-icon-custom-account\" title=\"Account\"></span>\n                <img class=\"icon_case\" src=\"/sfsites/c/resource/green_chat_circle_text_fill\" alt=\"Manifestações Icon\" />\n              <span style=\"font-size: 18px; margin-top: 6px; margin-left:6px;\">Manifestações</span>\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\" >Visualize suas manifestações ou abra uma nova\n        </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cc-agendamento/CC_AGENDAMENTO__x/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n          \t<img src=\"/sfsites/c/resource/green_truck_fill\" alt=\"Agendamento Rodoviário Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Agendamento\n\t\t\t <br>\n\t\t\t Rodoviário\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus agendamentos rodoviários\n        </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cc-acompanhamento-bombeio/CC_ACOMPANHAMENTO_BOMBEIO__x/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n         <img  src=\"/sfsites/c/resource/green_database_fill\" alt=\"Agendamento Dutoviário Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Agendamento\n\t\t\t <br>\n\t\t\t Dutoviário\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus agendamentos dutoviários\n    </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"../s/cota-mes\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img src=\"/sfsites/c/resource/green_chart_pie_slice_fill\" alt=\"Cota Mensal Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n                <span>Cota Mensal</span>\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte suas cotas mensais\n          </div>\n    </div>\n    </a>\n      </div>\n      <div class=\"card\">\n        <a href=\"../s/cc-cobranca/CC_COBRANCA__x/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/green_currency_circle_dollar_fill\" alt=\"Títulos em Cobrança Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              Títulos em\n\t\t\t <br>\n\t\t\t Cobrança\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus títulos em cobrança\n          </div>\n    </div>\n    </a>\n      </div>\n\t  \t<div class=\"card\">\n            <a href=\"../s/cc-nota-fiscal/CC_NOTA_FISCAL__x/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/green_receipt_fill\" alt=\"Notas Fiscais Eletrônicas Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              Notas Fiscais\n\t\t\t <br>\n\t\t\t Eletrônicas\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Visualize suas notas fiscais eletrônicas\n          </div>\n    </div>\n    </a>\n      </div>\n  </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "94fa414b-cc99-4f65-9767-9d8c4a9dd3f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"container\" style=\"justify-content: center; margin:10px 0;\">\n    <div class=\"card\">\n        <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n          \t<img src=\"/sfsites/c/resource/shoppingcart\" alt=\"Shopping Cart Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Efetua Requisição de Consumo\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Efetue Requisição de Consumo\n        </div>\n  </div>\n    </a>\n    </div>\n    <div class=\"card\">\n        <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n      <div style=\"min-height: 140px;\" class=\"slds-card\">\n    <div class=\"slds-card__header slds-grid\">\n      <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n         <img  src=\"/sfsites/c/resource/checkfill\" alt=\"Agendamento Dutoviário Icon\" />\n        <div class=\"slds-media__figure\">\n          <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n            <span class=\"slds-assistive-text\">account</span>\n          </span>\n        </div>\n        <div class=\"slds-media__body\">\n          <h2 class=\"slds-card__header-title\">\n             Consulta Requisição de Consumo\n          </h2>\n        </div>\n      </div>\n    </div>\n    <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte Requisição de Consumo\n    </div>\n  </div>\n    </a>\n    </div>\n \t  \t<div class=\"card\">\n            <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/checksfill\" alt=\"Notas Fiscais Eletrônicas Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              QDS x QDP\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte QDS x QDP\n          </div>\n    </div>\n    </a>\n      </div>\n      <div class=\"card\">\n        <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/cubefill\" alt=\"Títulos em Cobrança Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              \n\t\t\t Volume Apropriado\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte Volume Apropriado\n          </div>\n    </div>\n    </a>\n      </div>\n\t  \t<div class=\"card\">\n            <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img  src=\"/sfsites/c/resource/flaskfill\" alt=\"Notas Fiscais Eletrônicas Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n              Cromatografia Apropriada\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte Cromatografia Apropriada\n          </div>\n    </div>\n    </a>\n      </div>\n        <div class=\"card\">\n        <a href=\"https://crmpetrobras--devux.sandbox.my.site.com/portalcliente/s/case/Case/Default\" >\n        <div style=\"min-height: 140px;\" class=\"slds-card\">\n      <div class=\"slds-card__header slds-grid\">\n        <div class=\"slds-media slds-media_center slds-has-flexi-truncate\">\n            <img src=\"/sfsites/c/resource/green_folder_open_fill\" alt=\"Cota Mensal Icon\" />\n          <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-account\" title=\"account\">\n              <span class=\"slds-assistive-text\">account</span>\n            </span>\n          </div>\n          <div class=\"slds-media__body\">\n            <h2 class=\"slds-card__header-title\">\n                <span>Download Docs Financeiros</span>\n            </h2>\n          </div>\n        </div>\n      </div>\n      <div style=\"color: grey;\" class=\"slds-card__body slds-card__body_inner\">Consulte seus Documentos Financeiros\n          </div>\n    </div>\n    </a>\n      </div>\n  </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f0046c7c-7de0-4a73-8ae4-f09c400ef6af",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "87f21a9e-e13c-4ee4-99cf-7ffd4351b936",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"font-size:20px; color: rgb(2, 133, 66);\">Minhas Manifestações</h1>\n<br/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "0c0569b1-c8a1-4de4-b9b1-7f0ab899dd8b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "TodasManifestacoesAbertas",
+        "layout" : "COMPACT",
+        "pageSize" : 5,
+        "scope" : "Case",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "6704a01f-c6a2-4f3e-b6df-76a078e5a93a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:emptyClaims",
+      "id" : "cfaae96d-45b1-4539-9b44-b308c3a7928c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0ebeb581-c185-4209-9504-fb6890663e61",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cacheAge" : 1440,
+        "filterName" : "",
+        "reportId" : "00OHZ0000004YJF",
+        "showRefreshButton" : true,
+        "showTitle" : false
+      },
+      "componentName" : "forceCommunity:reportChart",
+      "id" : "d15baad6-3df3-478c-8439-0cf83282f020",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9465581-80ab-405b-a103-88db69547edc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "0f2f0a6d-ffff-4052-bf85-ff1710f398b5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "610456e2-7265-487a-83df-71f5f9b67c5d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0cf7a69a-cfd4-4de2-ad31-91c16e34434f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"font-size:20px; color: rgb(2, 133, 66);\">Tabelas Gerais de Preço</h1>\n<br/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "28a644c6-13ce-40b2-bfaf-076a960965e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:priceTableView",
+      "id" : "08ca8767-2f4e-4caf-9316-17c5b4a6ef58",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6bab298-1b51-4e12-bd0b-5cf5a6db140b",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

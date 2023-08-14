@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "8b43add9-dd02-4d4b-b08b-dd07bad7e7ec",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "b36e6075-6139-4e90-bc72-39a1223b335d",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Saldo_Cota_orderContainerCota_Component",
+  "id" : "b1eebb0f-4a6b-4a12-893f-cff4883f6ab1",
+  "type" : "experienceVariation"
+}

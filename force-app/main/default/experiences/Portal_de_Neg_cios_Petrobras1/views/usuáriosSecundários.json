@@ -1,0 +1,65 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "21828282-2681-4194-8e3a-4a60072f49b2",
+  "label" : "Usuários Secundários",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Início</a>&nbsp;&gt;&nbsp;<span style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">Cadastros</span>&nbsp;&gt; Usuários Secundários</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "79443b16-4b67-489e-a624-7c43a560f5cc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>&nbsp;<strong style=\"font-size: 28px; color: rgb(2, 133, 66);\">Usuários Secundários</strong></h1><h1><strong style=\"font-size: 28px; color: rgb(255, 201, 48);\">—</strong></h1><p><br></p><p><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Visualize aqui a lista de todos os Usuários Secundários.</span></p><p><span style=\"font-size: 12px;\">Aqui estão disponíveis as informações de contato dos usuários secundários desta empresa.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "800e8cb5-5163-40c5-84ea-9f65d840b2f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a7f8b815-7cc1-497a-96e1-5faf1cef8216",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:contactTable",
+      "id" : "ec27332b-8daa-4029-b9ea-489dbfa2f7e8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f7d109ef-659a-4dbb-8201-b9e244e82c02",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0d259f10-69e2-4890-8663-ca7250d74147",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Usuários Secundários"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ee703d10-48ca-460e-967a-eed2ec4fca0a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "709c284d-a6d5-422c-9ff9-7f51a0572c3d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-usuarios-secundarios"
+}

@@ -1,0 +1,66 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7d11dcf3-3052-4c3e-aa75-25a175e19a84",
+  "label" : "Suprimentos Consulta Dest Dif de Produto",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; <span style=\"color: rgb(0, 138, 0);\">Destinação Diferenciada de Produto &gt; Consulta</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "507e0439-a307-4dbd-b02c-b41fd9b55201",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "64e5d911-282d-46ef-8cbc-884986a7f998",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Consulta de Destinação Diferenciada de Produto - PETROBRAS</strong></h1><p><br></p><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>Consulte a Destinação Diferenciada de Produto</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "e7727433-b3ae-44f5-b599-6ee0165cd684",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a0933b90-a5fd-424d-be65-fa692f5062d9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:suprimentosConsultaDestinacaoDifProduto",
+      "id" : "ac1d06e9-3c87-4321-8176-1d9a3d9741dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "91b6bf92-7f82-4c4d-a84f-1389b6b9de33",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Consulta Dest Dif de Produto"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3cdb8f17-5ae3-4f6b-9f98-d095da9f9140",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fb65930d-7352-4a45-a7cd-312e3502049d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-consulta-dest-dif-de-produto"
+}

@@ -1,0 +1,107 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1c799c49-66d3-45c1-a291-852c1eb3e477",
+  "label" : "Cota Mes",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "6833e330-c105-41b5-8901-747f442a91e1",
+          "columns" : [ {
+            "UUID" : "20057936-7fb4-4513-ab17-4c56dbaa4046",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 185
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6833e330-c105-41b5-8901-747f442a91e1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; Suprimentos &gt; Cota Mês</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "98c70f8a-549e-46ed-9a5a-946b1e5f35ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Cota Mês</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ee054062-ed4a-41a0-946c-65818f4a866a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "pageName" : "Cota Mês",
+            "renderClassificacao" : false,
+            "renderListaProdutos" : false,
+            "renderListalocais" : false,
+            "renderLocal" : false,
+            "renderLocalLimi" : true,
+            "renderModalidade" : false,
+            "renderPeriodo" : true,
+            "renderProduto" : false,
+            "renderProdutoLimi" : true,
+            "renderVisualizacao" : true
+          },
+          "componentName" : "c:orderContainerCota",
+          "id" : "be38fcef-1813-457b-9e30-51eafdc6e648",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(129, 129, 129);\">Você não possui permissão para acessar essa funcionalidade.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7c39f084-9ae1-450a-9d64-3bdc951a02ec",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "20057936-7fb4-4513-ab17-4c56dbaa4046",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "75a6c3f0-3fae-4a98-9319-a6522ced11a5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Cota Mês"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "96c454ac-b76e-43f6-ae5d-2ad7f2cb809b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0e28f725-02b6-46cd-a4b3-d5f2f2ecac13",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cota-mes"
+}

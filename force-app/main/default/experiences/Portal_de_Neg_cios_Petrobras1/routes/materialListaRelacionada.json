@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "15643bbe-fdd5-463f-a160-3f77ffa3f5d9",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "80a9bc96-84b6-4b89-bb3d-3743b326740f",
+  "label" : "Material Lista relacionada",
+  "objectApiName" : "CC_MATERIAL__x",
+  "routeType" : "relatedlist-x02",
+  "type" : "route",
+  "urlPrefix" : "cc-material"
+}

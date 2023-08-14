@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0246c7f2-0f46-45a0-ad86-10e6584f0972",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "e7c3895f-2f5e-434f-b611-7bf2d300b008",
+  "label" : "Contato Comercial Related List",
+  "objectApiName" : "ContatoComercial__c",
+  "routeType" : "relatedlist-a8i",
+  "type" : "route",
+  "urlPrefix" : "contatocomercial"
+}

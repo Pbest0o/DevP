@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b83116b3-c0a5-463d-9c3f-573a7e56a69c",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "b894ee3b-5ca2-4e8b-a654-eb2c13cfd29d",
+  "label" : "Carreta Lista",
+  "objectApiName" : "CC_CARRETA__x",
+  "routeType" : "list-x0E",
+  "type" : "route",
+  "urlPrefix" : "cc-carreta"
+}

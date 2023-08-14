@@ -1,0 +1,86 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "75c75f43-3e49-438e-84e1-08609be87864",
+  "label" : "Suprimentos Análise de Saldo Consulta",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "38069e7c-1c45-4897-a6a6-e0eb084dd49b",
+          "columns" : [ {
+            "UUID" : "e4ff6718-876e-4dd4-b31e-dcfe1fb8e2d6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "38069e7c-1c45-4897-a6a6-e0eb084dd49b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Análise de Saldo &gt; Consulta</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "72ca8eb5-ccf7-4c3a-9aff-68691a67deca",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Análise de Saldo - Consulta</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a538d8a9-89dd-49fb-9b49-d2c8cc79a66f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:suprimentosAnaliseSaldoConsulta",
+          "id" : "2ba8ec03-b4b8-42e7-95cb-422246c95290",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e4ff6718-876e-4dd4-b31e-dcfe1fb8e2d6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "51c062f6-75c2-455e-98af-383c3441b131",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Suprimentos Análise de Saldo Consulta"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f1d7f6b8-f1a6-4c20-971b-1505d4f54256",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bf4e0053-b6a6-4280-92dd-7fcb0f60f69c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-suprimentos-analise-de-saldo-consulta"
+}

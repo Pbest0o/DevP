@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "35b7b8ef-7225-4539-8274-81d3a7fae23f",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "4e39b751-3445-48a5-994f-f3e816e0df0a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Cota_Dia_Rich_Content_Editor_Component",
+  "id" : "31c132b8-e75e-48df-9c3f-553bd6f8362e",
+  "type" : "experienceVariation"
+}

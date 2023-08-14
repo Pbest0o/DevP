@@ -1,0 +1,100 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6fcd1b4f-6a93-42dd-885e-7c0aa31e1746",
+  "label" : "User profile 2",
+  "regions" : [ {
+    "id" : "ba575b26-451e-444d-ac17-a5212f9feca6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "id" : "{!recordId}",
+        "showFullPhotoAsCircle" : true,
+        "showReputation" : false
+      },
+      "componentName" : "forceCommunity:userProfileHeader",
+      "id" : "3e3ab83b-5263-451b-8db1-f96d105a5bbc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "48b795c7-e52a-4604-9a1f-401f9e276ee8",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "b4da9713-26d9-4e44-a318-9ee4ed30174f",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Dados do Usuário"
+          }, {
+            "UUID" : "8763d223-d632-4c0c-8fa7-d0e136f367ee",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Dados do Contato"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "48b795c7-e52a-4604-9a1f-401f9e276ee8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "id" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:userProfileDetail",
+          "id" : "2583b872-1102-4ef7-86ca-fe704ba42fd4",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:userIntegrationToast",
+          "id" : "9cca7751-ab06-4799-b08f-cc6c338f558c",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b4da9713-26d9-4e44-a318-9ee4ed30174f",
+        "regionLabel" : "Dados do Usuário",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowName" : "Update_My_Contact"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "0d941e7a-151e-4a41-a89a-ebeeb042d1c4",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8763d223-d632-4c0c-8fa7-d0e136f367ee",
+        "regionLabel" : "Dados do Contato",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c6109f02-93c9-4943-9a0d-56262ad53f60",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2f31b161-9c11-4a62-9113-98785fcd0885",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

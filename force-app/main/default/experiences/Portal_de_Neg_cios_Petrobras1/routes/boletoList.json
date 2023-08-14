@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "bac945c3-88e7-4e48-8fdd-fe5bcb77ccdf",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "10d6cd91-7c47-4e91-80ee-ab37ddd61f5e",
+  "label" : "Boleto List",
+  "objectApiName" : "CC_COBRANCA__x",
+  "routeType" : "list-x00",
+  "type" : "route",
+  "urlPrefix" : "cc-cobranca"
+}

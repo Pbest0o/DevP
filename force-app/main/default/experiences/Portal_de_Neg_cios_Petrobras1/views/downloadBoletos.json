@@ -1,0 +1,88 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "99889c26-cf72-4dee-bdb4-604fac394942",
+  "label" : "Download Boletos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a84450bd-6b02-48d4-a1cc-c03c1484b1f8",
+          "columns" : [ {
+            "UUID" : "341c773d-cea3-4afe-98eb-b0b20220525c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a84450bd-6b02-48d4-a1cc-c03c1484b1f8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <a href=\"https://crmpetrobras--devatend.livepreview.salesforce-communities.com/portalcliente/s/financeiro\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Financeiro</a> &gt; <span style=\"background-color: rgba(212, 212, 212, 0.05); color: rgb(0, 138, 0);\">D</span><span style=\"color: rgb(0, 138, 0);\">ownload Documentos Financeiros &gt;</span> Download Boletos</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "60bf0629-3bf9-4618-99b0-f5aae878c38d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Download Boletos</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p><span style=\"color: rgb(129, 129, 129); font-size: 16px;\">Faça aqui o download em lote dos seus Boletos.</span></p><p><span style=\"font-size: 12px;\">Para fazer o download, selecione (marcando) as linhas dos registros que você deseja.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7d5bec37-7aa0-4871-afaa-e6bf40523702",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "objectApiName" : "Boleto"
+          },
+          "componentName" : "c:cfCustomListViewContainer",
+          "id" : "012bb32f-3534-43e9-83ad-20955d8625c4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "341c773d-cea3-4afe-98eb-b0b20220525c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42c744e7-0bae-42d8-94c6-9803f2618f97",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Download Boletos"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "501c1d42-6dc0-4142-a94a-310d02b80770",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aeff9b36-197f-4788-9f66-07cde491a848",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-download-boletos"
+}

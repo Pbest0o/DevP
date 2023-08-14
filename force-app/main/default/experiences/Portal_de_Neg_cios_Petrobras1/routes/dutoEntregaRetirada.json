@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "77fe7d18-c1d4-4000-aa2e-17f3b80b2870",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "3ea9c878-690d-47e5-8ea4-68bbb0803d0c",
+  "label" : "Duto Entrega Retirada",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-duto-entrega-x-retirada-2",
+  "type" : "route",
+  "urlPrefix" : "duto-entrega-x-retirada-2"
+}

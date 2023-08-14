@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1c799c49-66d3-45c1-a291-852c1eb3e477",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "3069a3a0-2f1a-4ac2-9024-2e049a7d8140",
+  "label" : "Cota Mes",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cota-mes",
+  "type" : "route",
+  "urlPrefix" : "cota-mes"
+}

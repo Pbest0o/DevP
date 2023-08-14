@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "01e1c9f4-79e0-4a15-b534-8e5971405bb1",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "493f6e44-7019-400d-8b94-fa783134102f",
+  "label" : "Suprimentos Transf Rasc Incorp Saldo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-transf-rasc-incorp-saldo",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-transf-rasc-incorp-saldo"
+}

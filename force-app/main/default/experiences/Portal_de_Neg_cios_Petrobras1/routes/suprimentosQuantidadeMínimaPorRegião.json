@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b4c9d79b-d7b1-4ff1-828e-a80890741207",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "15215671-8313-4df0-8149-ec62fa46d9b5",
+  "label" : "Suprimentos Quantidade Mínima por Região",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-quantidade-mnima-por-regio",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-quantidade-minima-por-regiao"
+}

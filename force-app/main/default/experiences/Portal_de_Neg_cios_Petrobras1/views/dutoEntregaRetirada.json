@@ -1,0 +1,75 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "77fe7d18-c1d4-4000-aa2e-17f3b80b2870",
+  "label" : "Duto Entrega Retirada",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"https://crmpetrobras--supridev02.sandbox.live-preview.salesforce-experience.com/portalcliente/s/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 138, 0); background-color: rgba(212, 212, 212, 0.05);\">Início</a> &gt; <span style=\"color: rgb(0, 138, 0);\">Suprimentos </span>&gt; Cota &gt; Dashboard &gt; Volume Solicitado x Volume Retirado</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4fd895c9-0d66-4144-9d2d-7dbf202d1f72",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f375836f-8522-453a-89a0-4e37fbf34c76",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: rgb(2, 133, 66); font-size: 28px;\">Dashboard - Volume Solicitado x Volume Retirado - PETROBRAS</strong></h1><h1><strong style=\"color: rgb(255, 201, 48); font-size: 28px;\">—</strong></h1><p><br></p><p>Acesse o dashboard por meio de gráficos criados através de Relatórios.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "83efebb9-6d1d-4a14-8d30-2c2f3a11f43b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:volumeSolicitadoRetiradoHelpBox",
+      "id" : "d9a42cad-2c2b-46b9-9c60-28cfa9fd8de2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "485",
+        "recordId" : "01ZHa000000LfszMAC"
+      },
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "a2afeeac-c7be-4364-8eab-70b065ad9803",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "91193a76-411d-484c-9dc1-5f96ee4eea2c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "625fb79b-2594-4f63-a33d-18184f5bee91",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Volume Solicitado x Volume Retirado"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db1680f5-0ee6-4e3e-bf3d-b65bd3a4f461",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a4856ba-7d3e-4ab2-a574-bc8cb65171fe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-duto-entrega-x-retirada-2"
+}

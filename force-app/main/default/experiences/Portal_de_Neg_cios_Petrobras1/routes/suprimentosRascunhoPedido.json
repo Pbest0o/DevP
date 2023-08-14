@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0b7be80c-31ef-4e6f-9573-2864397b7890",
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "configurationTags" : [ ],
+  "id" : "cf58d943-683b-4f6d-a13f-602b93e4f268",
+  "label" : "Suprimentos Rascunho Pedido",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-suprimentos-rascunho-pedido",
+  "type" : "route",
+  "urlPrefix" : "suprimentos-rascunho-pedido"
+}

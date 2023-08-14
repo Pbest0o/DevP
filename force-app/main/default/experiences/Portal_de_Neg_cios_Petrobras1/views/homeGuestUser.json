@@ -1,0 +1,115 @@
+{
+  "appPageId" : "1c2dcdf9-101c-4807-9ee1-ecf3bffb4f77",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "3e7f5cf0-03f2-4550-b23e-a62e93dacda7",
+  "label" : "Home Guest User",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a5886aef-60d7-4394-85d5-2c038bc23a93",
+          "columns" : [ {
+            "UUID" : "654d608f-6029-4ed2-9b51-17f8d4464012",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a5886aef-60d7-4394-85d5-2c038bc23a93",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-grid slds-wrap\" style=\"background-color:#FFF; margin-top:-20px; width: calc(100vw); margin-left: calc(-50vw + 50%);\">\n  <div class=\"slds-col slds-size_1-of-1\" style=\"text-align:right; height:46px; max-width:1238px; margin:auto; padding-right:16px;\">\n    <img src=\"/sfsites/c/resource/CanalClienteFooterLogo\" alt=\"Logo Petrobras\" height=24.5px; width=126px; style=\"margin-top:8px;\">\n  </div>\n</div>\n<div style=\"background-color:#008542; width: calc(100vw); margin-left: calc(-50vw + 50%);\">\n<div class=\"slds-wrap slds-grid\" style=\"max-width:1238px; margin:auto; padding:0 16px;\">    \n  <div class=\"slds-col slds-size_1-of-2\" style=\"margin-top:auto; margin-bottom:auto;\">\n     <h1 style=\"color: #FFF; font-weight: 700;\">Canal Cliente</h1>\n  </div>\n  <div class=\"slds-col slds-size_1-of-2\" style=\"text-align:right; padding: 16px 0px 16px 0;\">\n     <a class=\"slds-button slds-button_neutral\" href=\"../s/login\" style=\"height: 40px; text-decoration:none; color:#373737; background:rgba(255, 255, 255, 0.80); font-size:14px; padding:0 16px; border-radius:100px;\">Entrar</a>\n  </div>\n</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "558c2885-1742-4cec-a2c1-8486a65e5806",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-grid slds-wrap slds-gutters\">\n\n          <div class=\"slds-col slds-size_1-of-1 slds-large-size_1-of-2\">\n              <div style=\"margin:50px;\">\n                  <h1 style=\"color: var(--neutral-800, #373737); font-size: 36px; font-style: normal; font-weight: 700; line-height: 120%; /* 43.2px */ \"> Prontos para transformar suas ideias em bons negócios</h1>\n                  \n                  <div style=\"background: var(--brand-secondary-medium, #FDC82F); height:5px; width:48px; margin-top:20px;\"> </div>\n                  <p style=\"color: var(--neutral-800, #373737); font-size: 16px; font-style: normal; font-weight: 400; line-height: 160%; /* 25.6px */ margin-top:20px;\"> Somos reconhecidos mundialmente por nossa tecnologia de exploração e produção de petróleo e gás natural em águas ultraprofundas. Entretanto, nossos negócios vão além do alcance do campo e da retirada de petróleo e gás.</p>\n                  <button class=\"slds-button slds-button_brand\" style=\"height: 48px;  font-size:16px; padding:0 16px; font-weight:400; border-radius:100px; margin-top:30px;\">Saiba Mais</button>\n              </div>\n              \n\n          </div>\n          <div class=\"slds-col slds-size_1-of-1 slds-large-size_1-of-2  slds-align_absolute-center sac-petro\">\n              <img src=\"/sfsites/c/resource/CCGuestBannerImage\" alt=\"Logo Petrobras\">\n          </div>\n        \t\n    </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "fac84223-41c3-4a15-b1e0-da00a04588b9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-align_absolute-center guest-information-tile\" style=\"height:200px; background-color:#F8F8F8 !important; font-size:16px; width: calc(100vw);margin-left: calc(-50vw + 50%);\">\n    <div style=\"max-width:822px; padding:8px; margin-left:12px;\">\n    \tEncontre serviços que são importantes no seu dia-a-dia: realizar pedidos de produtos, agendar retiradas e acompanhar \n    \ttodo o processo comercial até o pagamento pela internet. Tudo isso, 24 horas por dia, sete dias por semana.    \n    </div>\n    \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c3c82dc3-6c13-4f99-a83d-57cfe6d5560f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"customCard-container\">\n        <div class=\"customCard\">\n            <img class=\"img1\" src=\"/sfsites/c/resource/card1\" alt=\"Imagem do cartão 1\">\n            <div class=\"customCard-content\">\n                <h2 style=\"font-size: 22px; font-weight: bold; color: black;\" >Como ter acesso ao Canal Cliente</h2>\n                    <div class=\"linha-amarela\"></div>\n                <br>\n                <br>\n\n                <p style=\"color: #373737; font-style: normal; font-weight: 400; line-height: 160%;\">Obtenha acesso ao Canal Cliente, inteiramente grátis solicitando aqui o cadastramento de sua empresa.</p>\n                <br>\n                \n                <div class=\"btn-container\">\n                <a href=\"#\" class=\"btn\">Saiba mais</a>\n                </div>\n                \n            </div>\n        </div>\n\n        <div class=\"customCard\">\n            <img class=\"img2\" src=\"/sfsites/c/resource/card2\" alt=\"Imagem do cartão 2\">\n            <div class=\"customCard-content\">\n                <h2 style=\"font-size: 22px; font-weight: bold; color: black;\" >Conheça nossos produtos</h2>\n                    <div class=\"linha-amarela\"></div>\n                <br>\n                <br>\n\n                <p style=\"color: #373737; font-style: normal; font-weight: 400; line-height: 160%;\">Nossa tecnologia estará ao seu lado com produtos de alta qualidade e confiabilidade.</p>\n                <br>\n                \n                <div class=\"btn-container\">\n                <a href=\"#\" style=\"margin-top: 22.5px;\" class=\"btn\">Saiba mais</a>\n                </div>\n                \n            </div>\n        </div>\n\n        <div class=\"customCard\">\n            <img class=\"img3\" src=\"/sfsites/c/resource/card3\" alt=\"Imagem do cartão 3\">\n            <div class=\"customCard-content\">\n                <h2 style=\"font-size: 22px; font-weight: bold; color: black;\" >Assistência técnica</h2>\n                    <div class=\"linha-amarela\"></div>\n                <br>\n                <br>\n\n                <p style=\"color: #373737; font-style: normal; font-weight: 400; line-height: 160%;\">Encontre informações e conteúdo técnico sobre os produtos e matérias-primas comercializados pela Petrobras.</p>\n                \n                <br>\n                \n\n                \n            </div>\n                <div class=\"btn-container\">\n                <a href=\"#\" style=\"margin-top: 21.5px; margin-left: 17px;\" class=\"btn\">Saiba mais</a>\n                </div>\n        </div>\n\n        <div class=\"customCard\">\n            <img class=\"img1\" src=\"/sfsites/c/resource/card4\" alt=\"Imagem do cartão 4\">\n            <div class=\"customCard-content\">\n                <h2 style=\"font-size: 22px; font-weight: bold; color: black;\" >Quero comprar produtos de Gás&Energia</h2>\n                    <div class=\"linha-amarela\"></div>\n                <br>\n                <br>\n\n                <p style=\"color: #373737; font-style: normal; font-weight: 400; line-height: 160%;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla acummsan...</p>\n                \n\n                <div class=\"btn-container\">\n                <a href=\"#\" class=\"btn\">Saiba mais</a>\n                </div> \n                \n            </div>\n        </div>\n    </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "5368b0d0-abaf-469a-a4e8-dd1265496c0e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width:822px; margin: 80px auto;\">\n<h2 style=\"font-size: 32px; color: var(--neutral-800, #373737); font-weight: 700; font-style: normal; line-height: 120%;\">Perguntas Frequentes</h2>\n<h2 style=\"font-size: 32px; color: var(--brand-secondary-medium, #FDC82F); font-weight: 700; font-style: normal; line-height: 120%; padding-bottom: 24px;\">—</h2>\n<div class=\"faqs\">\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck1\">\n        <label class=\"tab-label\" for=\"chck1\">Como se tornar um cliente para compra de gasolina ou diesel?</label>\n        <div class=\"tab-content\">\n          Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n      </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck2\">\n        <label class=\"tab-label\" for=\"chck2\">Como abro manifestações sobre o canal do cliente?</label>\n        <div class=\"tab-content\">\n        Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck3\">\n        <label class=\"tab-label\" for=\"chck3\">Como ter acesso ao canal cliente?</label>\n        <div class=\"tab-content\">\n        Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck4\">\n        <label class=\"tab-label\" for=\"chck4\">Dúvidas sobre privacidade e proteção de dados pessoais</label>\n        <div class=\"tab-content\">\n        Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck5\">\n        <label class=\"tab-label\" for=\"chck5\">Korem ipsum dolor sit amet, consectetur adipiscing elit.</label>\n        <div class=\"tab-content\">\n        Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n    </div>\n    <div class=\"tab\">\n        <input type=\"checkbox\" class=\"faq\" id=\"chck6\">\n        <label class=\"tab-label\" for=\"chck6\">FAQ</label>\n        <div class=\"tab-content\">\n        Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.\n        </div>\n    </div>\n</div>\n<div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d5802dec-e90b-4555-89e1-e3ea09300602",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: calc(100vw); margin-left: calc(-50vw + 50%);\" >\n    <div style=\"height: 1px; background: #D4D4D4;  margin: 0 60px;\" class=\"horinbar-petro\"></div>\n\n    <div class=\"slds-grid slds-wrap\" style=\"padding: 30px 60px;\">\n\n          <div class=\"slds-col slds-size_1-of-1 slds-large-size_1-of-3 slds-align_absolute-center logo-petro\">\n            <img src=\"/sfsites/c/resource/CanalClienteFooterLogo\" alt=\"Logo Petrobras\" height=36.16px; width=186px;>\n          </div>\n          <div class=\"slds-col slds-size_1-of-1 slds-large-size_1-of-3  slds-align_absolute-center sac-petro\">\n            <span style=\"font-size:14px; color:#2F2F2F; font-weight:400;\">SAC Petrobras 0800 728 9001</span>\n          </div>\n        \t\n              <div class=\"slds-col slds-size_1-of-1 slds-large-size_1-of-3 slds-align_absolute-center social-petro\">\n                  \n\t\t\t\t\t\n\n                  \n                          <a href=\"http://twitter.com/petrobras\" style=\"text-decoration: none;\">\n                            <img src=\"/sfsites/c/resource/CanalClienteFooterTwitter\" alt=\"Twitter\" height=32px; width=32px; style=\"margin:5px; \">\n                          </a>\n                  \n                   \n\t\t\t\t\n                      <a href=\"https://www.facebook.com/petrobras\" style=\"text-decoration: none;\">\n                        <img src=\"/sfsites/c/resource/CanalClienteFooterFacebook\" alt=\"Facebook\" height=32px; width=32px; style=\"margin:5px;\">\n                      </a>\n                \n                  \n                  <a href=\"http://instagram.com/petrobras\" style=\"text-decoration: none;\">\n                    <img src=\"/sfsites/c/resource/CanalClienteFooterInstagram\" alt=\"Instagram\" height=32px; width=32px; style=\"margin:5px;\">\n                  </a>\n                  \n                  \n                      <a href=\"http://www.youtube.com/user/canalpetrobras\" style=\"text-decoration: none;\" class=\"break-social-petro\">\n                        <img src=\"/sfsites/c/resource/CanalClienteFooterYoutube\" alt=\"Youtube\" height=32px; width=32px; style=\"margin:5px;\">\n                      </a>\n\n\n                      <a href=\"http://www.linkedin.com/company/petrobras\" style=\"text-decoration: none;\"class=\"break-social-petro\">\n                        <img src=\"/sfsites/c/resource/CanalClienteFooterLinkedin\" alt=\"Linkedin\" height=32px; width=32px; style=\"margin:5px;\">\n                      </a>\n\t\t\t\t\n                  \n                  \n                      \n             \n              </div>\n          <div class=\"slds-col slds-size_1-of-1 slds-align_absolute-center copy-petro\">\n            <div class=\"slds-align_absolute-center\" style=\"height: 80px; font-size:14px; color:#B4B4B4; font-weight:400;;\">© Copyright Petrobras 2023. Todos os direitos reservados.</div>\n          </div>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "ac91d278-5a0e-4056-aaaa-483704d52821",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "654d608f-6029-4ed2-9b51-17f8d4464012",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "428a156e-0cf2-43bd-9133-cbd66a6e5786",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8799c44b-53ff-4fb6-974e-c3b973cd066c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f3a92cd-7ad2-400f-a879-34f0ee9386bb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "wOTkZU4zeIBcMNWM3GoSnXc4rX6HWb",
+  "type" : "view",
+  "viewType" : "home"
+}
